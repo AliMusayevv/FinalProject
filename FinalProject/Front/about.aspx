@@ -30,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -48,9 +48,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
-				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
+				<li></li>
 				
 			</ul>
 			<div class="nav-icon">
@@ -72,37 +72,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	  
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
-					      </div>
+							  </div>
+						  		
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
 				    	<script type="text/javascript">
@@ -151,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
+
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -189,42 +163,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3>About Us</h3>
 				<div class="about-in">
 					<a href="blog_single.aspx"><img src="/Front/images/at.jpg" alt="image" class="img-responsive ">	</a>			
-					<h6 ><a href="blog_single.aspx">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. Donec nisi sem, vestibulum Etortor tortor in turpis. Proin mauris nulla, rutrum aliquet arcu vel</a></h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi sem, vestibulum ac lobortis quis, aliquet in metus. Suspendi sse a nibh id eros consectetur laoreet. Etiam viverra auctor orci, eu mattis ipsum rutrum nec.
-						Etortor tortor in turpis. Proin mauris nulla, rutrum aliquet arcu vel, porttitor varius dolor. Phasellus vitae tincidunt orci, et faucibus eros. Sed dolor sapien, pharetra placerat feugiat.</p>
+					<h6 ><a href="blog_single.aspx">Real Home</a></h6>
+					<p>Real Home is an online platform that all participants of the real estate market can benefit from. The project provides buyers with the opportunity to conveniently use a wide database of ads for the purchase and sale of real estate. Real estate agencies, construction companies and individuals get the optimal opportunity to deliver their offers to potential buyers in a short time.
+
+The project started its activity in 2008 and is currently the leading online resource in the real estate market of Azerbaijan.
+
+bina.az is not a real estate company. The goal of the project is to create an opportunity for immediate and immediate communication between the buyer and the seller.</p>
 				</div>
-		</div>
+		</div>	
 	</div>
 	<!---->
-	<div class="about-middle">
-		<div class="container">		
-			<div class="col-md-8 about-mid">
-				<h4>Lorem ipsum dolor</h4>
-				<h6><a href="blog_single.aspx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</a> </h6>
-				<p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
-			</div>
-			<div class="col-md-4 about-mid1">
-				<p>The standard chunk of Lorem Ipsum used since adisipicing elit</p>
-				<a href="blog_single.aspx" class="hvr-sweep-to-right more-in">READ MORE</a>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+	
 	<!---->
 	<!---->
 	<div class="choose-us">
 		<div class="container">
-			<h3>why choose us</h3>
+			<h3>Why choose us</h3>
 			<div class="us-choose">
 				<div class="col-md-6 why-choose">
 					<div class="  ser-grid ">
 						<i class="hi-icon hi-icon-archive glyphicon glyphicon-pencil"> </i>
 					</div>
 					<div class="ser-top beautiful"> 
-						<h5>beautiful &amp; enjoyable designs</h5>
-						<label>The standard chunk of Lorem</label>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+						<h5>VIP announcements. The effectiveness of the VIP announcements section</h5>
+						
+						<p>VIP announcements. The effectiveness of the VIP announcements section
+Announcements in the VIP list are always in front of the eyes. They are viewed more than regular ads (about 10-50 times more) and have a high chance of being sold if a real price is set. Thus, the VIP ad stays on the front page for 1 month (30 days). </p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -233,9 +197,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<i class="hi-icon hi-icon-archive glyphicon glyphicon-time"> </i>
 					</div>
 					<div class="ser-top beautiful"> 
-						<h5>beautiful &amp; enjoyable designs</h5>
-						<label>The standard chunk of Lorem</label>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+						<h5>High quality,Cheap price</h5>
+					
+						<p>Thousands of visitors who enter our site every day and are looking for a house. will see your ad constantly, your property will sell quickly! If you want to place your ad on this list, open the ad, click on "Announce VIP" at the top. By paying online with a bank card or netmoney card, your ad will immediately be included in the list of VIP ads..</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -247,9 +211,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<i class="hi-icon hi-icon-archive glyphicon glyphicon-cog"> </i>
 					</div>
 					<div class="ser-top beautiful"> 
-						<h5>beautiful &amp; enjoyable designs</h5>
-						<label>The standard chunk of Lorem</label>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+						<h5>Push the ad forward. The procedure for advancing the ad</h5>
+					
+						<p>You can use the "Promote the ad" service. By paying online, your ad will immediately appear on the home page as the last added ad with the new date and will be the first in the list of ads. Payment can be made by bank card or Milli Front, E-Manat.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -259,8 +223,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="ser-top beautiful"> 
 						<h5>beautiful &amp; enjoyable designs</h5>
-						<label>The standard chunk of Lorem</label>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+						
+						<p> On the Real Home  website, you can find thousands of home ads that are updated every day. Vipemlak.az is a site for house ads in Baku and other regions of Azerbaijan. Hundreds of real estate and home sales ads are added here every hour. Home buying and selling in Baku and anywhere in Azerbaijan will be very easy, convenient and fast with us.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -275,7 +239,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 				<div class="col-md-6 bottom-about">
 					<h4><a href="blog_single.aspx">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</a></h4>
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+					<p>Real Home is a real estate, house buying and selling website. If you are looking for house ads, houses for sale, houses for rent, you can easily find them on Vipemlak.az house ads website. It is possible to place various real estate ads on the site. If you are interested in house ads in Baku, house ads in Azerbaijan, you can find them on Vipemlak.az website. Place a free ad on Vipemlak.az Dasinmaz real estate site, sell your house. You can easily buy and sell a house. Houses for rent in Baku, houses for rent in Azerbaijan are sold at a cheap price. Search for houses for rent throughout Azerbaijan. If you have a house for rent, place a free ad on Vipemlak.az real estate website.</p>
 					<a href="blog_single.aspx" class="hvr-sweep-to-right more">Read More</a>
 				</div>
 				<div class="col-md-6 bottom-about1">
@@ -285,68 +249,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<!---->
-		<div class="container">
-		<div class="content-events">
-				<h3> Events & News</h3>
-				<div class="news">
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="news">
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="col-md-4 new-more">
-						<div class="event">
-							<h4>26/06/2015</h4>
-							<h6><a href="blog_single.aspx">Sed ut perspiciatis unde omnis </a></h6>
-						</div>
-						<p>Kasertas lertyasea deeraeser miasera lertasa ritise doloert ferdas caplicabo nerafaes asety u lasec vaserat. nikertyade asetkertyptaiades goertayse.nikertyade asetkertyptaiades goertayse</p>
-						<a class="hvr-sweep-to-right more" href="blog_single.aspx">Read More</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!---->
-
-</div>
+		
 <!--footer-->
 <div class="footer">
 	<div class="container">
@@ -359,19 +262,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -380,7 +283,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -388,18 +291,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -408,10 +311,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

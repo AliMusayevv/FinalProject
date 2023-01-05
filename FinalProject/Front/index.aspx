@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Real Home A Real Estate Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+<title>Real Home</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -61,9 +61,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i> +994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
-				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
+				<li></li>
 				
 			</ul>
 			<div class="nav-icon">
@@ -84,38 +84,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					    <!----- tabs-box ---->
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
-						  </ul>				  	 
-						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
-					      </div>
+						 				  	 
+						  
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
 				    	<script type="text/javascript">
@@ -152,6 +122,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>	
 </div>
 <!--//-->	
+	<div class="menu-right">
+		 <ul class="menu">
+			<li class="item1"><a href="#"> Menu<i class="glyphicon glyphicon-menu-down"> </i> </a>
+			<ul class="cute">
+				<li class="subitem1"><a href="buy.aspx">Buy </a></li>
+				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
+				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
+				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
+				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
+				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
+			</ul>
+		</li>
+		</ul>
+	</div>
+	<div class="clearfix"> </div>
+		<!--initiate accordion-->
+		<script type="text/javascript">
+            $(function () {
+                var menu_ul = $('.menu > li > ul'),
+                    menu_a = $('.menu > li > a');
+                menu_ul.hide();
+                menu_a.click(function (e) {
+                    e.preventDefault();
+                    if (!$(this).hasClass('active')) {
+                        menu_a.removeClass('active');
+                        menu_ul.filter(':visible').slideUp('normal');
+                        $(this).addClass('active').next().stop(true, true).slideDown('normal');
+                    } else {
+                        $(this).removeClass('active');
+                        $(this).next().stop(true, true).slideUp('normal');
+                    }
+                });
+
+            });
+        </script>
 	<div class=" header-right">
 		<div class=" banner">
 			 <div class="slider">
@@ -161,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			          	 <div class="banner1">
 			           		<div class="caption">
 					          	<h3><span>vivam</span>us site</h3>
-					          	<p>Nunc dignissim risus idi</p>
+					          	<p> Wellcome Real Estate</p>
 			          		</div>
 			          	</div>
 			         </li>
@@ -169,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			          	 <div class="banner2">
 			           		<div class="caption">
 					          	<h3><span>vivam</span>us site</h3>
-					          	<p>Nunc dignissim risus idi</p>
+					          	<p> Wellcome Real Estate</p>
 			          		</div>
 			          	</div>
 			         </li>
@@ -177,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			          	 <div class="banner3">
 			           		<div class="caption">
 					          	<h3><span>vivam</span>us site</h3>
-					          	<p>Nunc dignissim risus idi</p>
+					          	<p> Wellcome Real Estate</p>
 			          		</div>
 			          	</div>
 			         </li>		
@@ -267,11 +272,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<asp:ListView runat="server" ID="LstMostPop">
 				<ItemTemplate>
 					<div class="col-md-4 box_2">
-			     	 <a href="single.aspx" class="mask">
-  <asp:Image ID="Image3" runat="server" class="img-responsive zoom-img" ImageUrl='<%#Eval("IMAGE_PATH") %>'/><asp:Label ID="LblPrice" runat="server" class="four" Text='<%#Eval("PRICE")+" $"%> '></asp:Label>	
-			     	 </a>
+			     	 <a href="single.aspx?Item=<%#Eval("ID")%>" class="mask">
+  <asp:Image ID="Image3" runat="server" class="img-responsive zoom-img" ImageUrl='<%#Eval("IMAGE_PATH") %>'/> </a><asp:Label ID="LblPrice" runat="server" class="four" Text='<%#Eval("PRICE")+" ₼"%> '></asp:Label>	
+			     	
 			     	   <div class="most-1">
-			     	   	 <h5><a href="single.aspx">View</a></h5>
+			     	   	 <h5><a  href="single.aspx?Item=<%#Eval("ID")%>">View</a></h5>
 							<asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label>
 			     	   </div>
 			 </div>
@@ -418,7 +423,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ItemTemplate>	
 							<div class="col-md-3 project-grid">
 						<div class="project-grid-top">
-							 <a href="single.aspx" class="mask"><asp:Image ID="Image1" class="img-responsive zoom-img" ImageUrl='<%#Eval("IMAGE_PATH") %>' runat="server" /> </a>
+							 <a href="single.aspx?Item=<%#Eval("ID")%>" class="mask"><asp:Image ID="Image1" class="img-responsive zoom-img gal" ImageUrl='<%#Eval("IMAGE_PATH") %>' runat="server" /> </a>
 							 <div class="col-md1">
 								 <div class="col-md2">
 									 <div class="col-md3">
@@ -438,7 +443,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								 </div>
 								 <asp:Label ID="LblGalArea" runat="server" Text='<%#Eval("BUILD_UP_AREA")+"m²" %>'></asp:Label>
 								<p> <asp:Label ID="LblGalPrice" runat="server" class="cost" Text='<%#Eval("PRICE")+"₼" %>'></asp:Label></p>
-								<p> <a href="single.aspx" class="hvr-sweep-to-right more">See Details</a></p>
+								<p> <a href="single.aspx?Item=<%#Eval("ID")%>" class="hvr-sweep-to-right more">See Details</a></p>
 							 </div>
 						</div>
 					</div>
@@ -600,19 +605,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -621,7 +626,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -629,18 +634,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -649,10 +654,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Real Home A Real Estate Category Flat Bootstarp Resposive Website Template | Single :: w3layouts</title>
+<title>Real Home </title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -50,9 +50,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
-				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
+				<li></li>
 				
 			</ul>
 			<div class="nav-icon">
@@ -74,36 +74,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
+						  		
 					      </div>
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -153,7 +127,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -190,23 +163,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
 	
 	<div class="buy-single-single">
+		
+
 	
+			
+
+
 			<div class="col-md-9 single-box">
 				
        <div class=" buying-top">	
+
 			<div class="flexslider">
   <ul class="slides">
-    <li data-thumb="/Front/images/ss.jpg">
-      <img src="/Front/images/ss.jpg" />
+    <li data-thumb='<%#Eval("IMAGE_PATH3") %>'>
+		<asp:Image ID="Image1" ImageUrl="/Front/images/inn6.jpg" Width="1000px" Height="500px" runat="server" />  
     </li>
-    <li data-thumb="/Front/images/ss1.jpg">
-      <img src="/Front/images/ss1.jpg" />
+    <li data-thumb= '<%#Eval("IMAGE_PATH4") %>'>
+    <asp:Image ID="Image2" ImageUrl="/Front/images/inn6.jpg" Width="1000px" Height="500px" runat="server" />  
     </li>
-    <li data-thumb="/Front/images/ss2.jpg">
-      <img src="/Front/images/ss2.jpg" />
+    <li  data-thumb='<%#Eval("IMAGE_PATH") %>'>
+     <asp:Image ID="Image3" ImageUrl="/Front/images/inn6.jpg" Width="1000px" Height="500px" runat="server" />  
     </li>
-    <li data-thumb="/Front/images/ss3.jpg">
-      <img src="/Front/images/ss3.jpg" />
+    <li  data-thumb='<%#Eval("IMAGE_PATH2") %>'>
+     <asp:Image ID="Image4"  CssClass="immg" ImageUrl="/Front/images/ss3.jpg" Width="1000px" Height="500px" runat="server" />  
     </li>
   </ul>
 </div>
@@ -227,93 +206,68 @@ $(window).load(function() {
 <div class="buy-sin-single">
 			<div class="col-sm-5 middle-side immediate">
 					     <h4>Possession: Immediate</h4>
-					     <p><span class="bath">Bed </span>: <span class="two">2 BHK</span></p>
-					     <p>  <span class="bath1">Baths </span>: <span class="two">2</span></p>
-					     <p><span class="bath2">Built-up Area</span>: <span class="two">100 Sq.Yrds</span></p>
-					     <p><span class="bath3">Plot Area </span>:<span class="two"> 150 Sq.Yrds</span></p>
-						 <p><span class="bath4">Age of property</span> : <span class="two">4 - 10 Years</span></p>
-						 <p><span class="bath5">Price </span>:<span class="two"> 30-40 Lacs</span></p>				 
+					     <p><span class="bath">Category:</span> <asp:Label ID="LblCategory" class="aim dep two lol" runat="server"  Text=""></asp:Label></p>
+					     <p><span class="bath1">Baths: </span> <asp:Label ID="LblBath" runat="server" class="two lol" Text="Label"></asp:Label></p>
+					     <p><span class="bath2">Built-up Area:</span>:<asp:Label ID="LblBuildUpArea" runat="server" class="two lol" Text="Label"></asp:Label></p>
+					     <p><span class="bath3">Plot Area: </span><asp:Label ID="LblPlotArea" runat="server" class="two lol" Text="Label"></asp:Label></p>
+						 <p><span class="bath4">Age of property:</span> <asp:Label ID="LblAgeOfProperty" runat="server" class="two lol" Text="Label"></asp:Label> </p>
+						 <p><span class="bath5">Price: </span><asp:Label ID="LblPrice" runat="server" class="two lol" Text="Label"></asp:Label></p>
+				         <p><span class="bath5">Rent Price: </span><asp:Label ID="LblRentPrice" runat="server" class="aim lol" Text="Label"></asp:Label></p>
 						<div class="   right-side">
 							 <a href="contact.aspx" class="hvr-sweep-to-right more" >Contact Builder</a>     
 					 </div>
 					</div>
 					 <div class="col-sm-7 buy-sin">
 					 	<h4>Description</h4>
-					 	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature</p>
-					 	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC </p>
+						 <br />
+						 <asp:Label ID="LblDescription" runat="server" Text="Label"></asp:Label>
 					 </div>
 					 <div class="clearfix"> </div>
 					</div>
 					 <div class="map-buy-single">
 					 	<h4>Neighborhood Info</h4>
 						 	<div class="map-buy-single1">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909492!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRussia!5e0!3m2!1sen!2sin!4v1415776049771"></iframe>
-							
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124196.1613836354!2d47.99406572480202!3d40.12060932910565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307cd91aa21ddf%3A0xe6c9526b3e83cd08!2sAz%C9%99rbaycan!5e0!3m2!1saz!2s!4v1672394111193!5m2!1saz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>							
 						</div>
 					</div>
 					<div class="video-pre">
 						<h4>Video Presentation</h4>
-						<iframe src="https://player.vimeo.com/video/63931426"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+							<iframe src="https://player.vimeo.com/video/63931426"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
-		</div>
-	
+				</div>					
+		
+		
 
-			
+
+
+	
 		
 		<div class="col-md-3">
 			<div class="single-box-right right-immediate">
-		     	<h4>Featured Communities</h4>
+		     	<h4>Independent House</h4>
+				<!--ListView-->
+
+				<asp:ListView runat="server" ID="LstIndHouse">
+					<ItemTemplate>
+
+					
 				<div class="single-box-img ">
 					<div class="box-img">
-						<a href="single.aspx"><img class="img-responsive" src="/Front/images/sl.jpg" alt=""></a>
+						<a href="single.aspx?Item=<%#Eval("ID") %>">
+							<asp:Image ID="Image5" class="img-responsive" ImageUrl='<%#Eval("IMAGE_PATH") %>' alt="" runat="server" /></a>
 					</div>
 					<div class="box-text">
-						<p><a href="single.aspx">Lorem ipsum dolor sit amet</a></p>
-						<a href="single.aspx" class="in-box">More Info</a>
+						<p><a  href="single.aspx?Item=<%#Eval("ID") %>"><asp:Label ID="Label1" runat="server" Text='<%#Eval("LOCATION") %>' ></asp:Label></a></p>
+						<a href="single.aspx?Item=<%#Eval("ID") %>" class="in-box">More Info</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="single-box-img">
-					<div class="box-img">
-						<a href="single.aspx"><img class="img-responsive" src="/Front/images/sl1.jpg" alt=""></a>
-					</div>
-					<div class="box-text">
-						<p><a href="single.aspx">Lorem ipsum dolor sit amet</a></p>
-						<a href="single.aspx" class="in-box">More Info</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="single-box-img">
-					<div class="box-img">
-						<a href="single.aspx"><img class="img-responsive" src="/Front/images/sl2.jpg" alt=""></a>
-					</div>
-					<div class="box-text">
-						<p><a href="single.aspx">Lorem ipsum dolor sit amet</a></p>
-						<a href="single.aspx" class="in-box">More Info</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="single-box-img">
-					<div class="box-img">
-						<a href="single.aspx"><img class="img-responsive" src="/Front/images/sl3.jpg" alt=""></a>
-					</div>
-					<div class="box-text">
-						<p><a href="single.aspx">Lorem ipsum dolor sit amet</a></p>
-						<a href="single.aspx" class="in-box">More Info</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="single-box-img">
-					<div class="box-img">
-						<a href="single.aspx"><img class="img-responsive" src="/Front/images/sl4.jpg" alt=""></a>
-					</div>
-					<div class="box-text">
-						<p><a href="single.aspx">Lorem ipsum dolor sit amet</a></p>
-						<a href="single.aspx" class="in-box">More Info</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+						</ItemTemplate>
+				</asp:ListView>
+
+								<!--ListView-->
+
+				
 		 </div>
 			
 	  </div>
@@ -324,23 +278,34 @@ $(window).load(function() {
 <!---->
 <div class="container">
 	<div class="future">
-		<h3 >Related Projects</h3>
+		<h3 >Rental Home</h3>
 			<div class="content-bottom-in">
 					<ul id="flexiselDemo1">			
+						<asp:ListView runat="server" ID="LstRent">
+							<ItemTemplate>
+
+							
 						<li><div class="project-fur">
-								<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi.jpg" alt="" />	</a>
+								<a href="single.aspx?Item=<%#Eval("ID") %>" >
+									<asp:Image ID="Image6" runat="server"  ImageUrl='<%#Eval("IMAGE_PATH") %>' class="img-responsive"  alt="" Width="265px" Height="211px" /></a>
 									<div class="fur">
 										<div class="fur1">
-		                                    <span class="fur-money">$2.44 Lacs - 5.28 Lacs </span>
-		                                    <h6 class="fur-name"><a href="single.aspx">Contrary to popular</a></h6>
-		                                   	<span>Paris</span>
+		                                    <span class="fur-money">
+												<asp:Label ID="Label2" runat="server" Text='<%#Eval("BUILD_UP_AREA")+" m²" %>'></asp:Label></span>
+		                                    <h6 class="fur-name"><a href="single.aspx?Item=<%#Eval("ID") %>">
+												<asp:Label ID="Label4" class="green" runat="server" Text='<%#Eval("CATEGORY") %>'></asp:Label></a></h6>
+		                                   	<span>
+												   <asp:Label ID="Label3" runat="server" Text='<%#Eval("CITY") %>'></asp:Label></span>
                                			</div>
 			                            <div class="fur2">
-			                               	<span>2 BHK</span>
+			                               	<span>
+												   <asp:Label ID="Label5" runat="server" Text='<%#Eval("RENT_PRICE") +"₼ Per Month" %>'></asp:Label></span>
 			                             </div>
 									</div>					
 							</div></li>
-							<li><div class="project-fur">
+						</ItemTemplate>
+						</asp:ListView>
+							<%--<li><div class="project-fur">
 									<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi1.jpg" alt="" />	</a>
 										<div class="fur">
 											<div class="fur1">
@@ -378,7 +343,7 @@ $(window).load(function() {
 			                               	<span>2 BHK</span>
 			                             </div>
 									</div>					
-							</div></li>
+							</div></li>--%>
 					</ul>
 					<script type="text/javascript">
 						$(window).load(function() {
@@ -424,19 +389,19 @@ $(window).load(function() {
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -445,7 +410,7 @@ $(window).load(function() {
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -453,18 +418,18 @@ $(window).load(function() {
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -473,10 +438,10 @@ $(window).load(function() {
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
-			</div
+				<h2><a href="#">REAL HOME</a></h2>
+			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

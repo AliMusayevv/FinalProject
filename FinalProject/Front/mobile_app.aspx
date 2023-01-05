@@ -1,11 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="mobile_app.aspx.cs" Inherits="FinalProject.Front.mobile_app" %>
 
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -53,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
 				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
 				
@@ -76,36 +71,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	 
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
+						  		
 					      </div>
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -155,7 +124,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale</a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -207,7 +175,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h5>Quick Details</h5>
 						<p>There are many variations of passages of Lorem Ipsum available, but the majorit</p>
 					</div>
-					<a href="#" class="hvr-sweep-to-right more">Download the App</a>
+					<a href="https://play.google.com/store/apps/details?id=com.crowdstar.covetHome" class="hvr-sweep-to-right more">Download the App</a>
 			</div>
 		</div>
 	</div>
@@ -223,19 +191,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -244,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -252,18 +220,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -272,10 +240,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

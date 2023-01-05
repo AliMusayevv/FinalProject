@@ -30,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -48,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
 				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
 				
@@ -72,36 +72,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
+						  		
 					      </div>
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -151,7 +125,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale</a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -186,22 +159,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--contact-->
 <div class="contact">
 	<div class="container">
-		<h3>Contat</h3>
+		<h3>Contact</h3>
 	 <div class="contact-top">
-		<div class="col-md-6 contact-top1">
+		<div class="col-md-6 contact-top1 ali">
 		  <h4 > Info</h4>
-          <p class="text-contact">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took.</p>
+          <p class="text-contact">Welcome to Real Home estate.We are doing our best to develop and improve the project and we are ready to listen to your thoughts and suggestions about it. Keep in touch for offers and suggestions.</p>
 		  <div class="contact-address">
 		  	<div class="col-md-6 contact-address1">
 			  	 <h5>Address</h5>
-	             <p><b>The Company Name</b></p>
-	             <p>25478 charms of pleasur</p>
-	             <p>On the other hand, we denounce</p>	
+	             <p><b>Real Home</b></p>
+	             <p>Azerbaijan,Baku</p>
+	             <p> Nasimi ms</p>	
 		  	</div>
 		  	<div class="col-md-6 contact-address1">
 			  	  <h5>Email Address </h5>
-	             <p>General :<a href="malito:mail@demolink.org"> info(at)Lorem.com</a></p>
-	             <p>Office :<a href="malito:mail@demolink.org"> info(at)Lorem.com</a></p>
+	             <p>General :<a > emusayev01@gmail.com</a></p>
+	             <p>Office :<a > realhome@gmail.com</a></p>
 		  	</div>
 		  	<div class="clearfix"></div>
 		  </div>
@@ -209,23 +182,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  	<div class="col-md-6 contact-address1">
 			  	 <h5 >Phone </h5>
 	             <p>Landline : 254-8974-5847</p>
-	             <p>Mobile : +174 1478 74755</p>
+	             <p>Mobile : +994 077 639 96 66</p>
 	        </div>
 		  	<div class="clearfix"></div>
 		  </div>
 		</div>
-		<div class="col-md-6 contact-right">
-	
-            <form>
-               <input type="text"  placeholder="Name" required="">
-			   <input type="text" placeholder="Email" required="">
-			   <input type="text" placeholder="Subject" required="">
-			   <textarea  placeholder="Message" requried=""></textarea>
-			   <label class="hvr-sweep-to-right">
-	           <input type="submit" value="Submit">
-	           </label>
-			</form>
-		</div>
+		
 		<div class="clearfix"> </div>
 </div>
 	</div>
@@ -233,8 +195,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   
 		
 		
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.42999605992!2d49.71487499392489!3d40.39450797944242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrxLEsIEF6yZlyYmF5Y2Fu!5e0!3m2!1saz!2s!4v1671352695504!5m2!1saz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	    </div>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48616.99727962166!2d49.79938246981549!3d40.396391817919145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d79869956a3%3A0x9f949d3fb038a1f0!2zTsmZc2ltaSwgQmFrxLEsIEF6yZlyYmF5Y2Fu!5e0!3m2!1saz!2s!4v1672849401440!5m2!1saz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 <!--//contact-->
 <!--footer-->
 <div class="footer">
@@ -248,19 +209,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -269,7 +230,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -277,18 +238,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -297,10 +258,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

@@ -1,11 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="buy.aspx.cs" Inherits="FinalProject.Front.buy" %>
 
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -54,9 +49,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
-				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
+				<li></li>
 				
 			</ul>
 			<div class="nav-icon">
@@ -78,36 +73,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	 
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
+						  		
 					      </div>
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -157,7 +126,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -189,6 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!--//header-->
+	<form runat="server">
 <div class="container">
 	
 	<!--price-->
@@ -196,7 +165,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="price-grid">
 			<div class="col-sm-4 price-top">
 				<h4>City</h4>
-				<select class="in-drop">
+			<asp:DropDownList ID="DrpCity" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="">Please Select</asp:ListItem>  
+            <asp:ListItem>Baku </asp:ListItem>  
+            <asp:ListItem>Ganja</asp:ListItem>  
+            <asp:ListItem>Lankaran</asp:ListItem>  
+            <asp:ListItem>Agstafa</asp:ListItem>  
+            <asp:ListItem>Guba</asp:ListItem> 
+			 
+
+        </asp:DropDownList>  
+				<%--<select class="in-drop">
 					<option>Select City</option>
 					<option>Bangkok</option>
 					<option>Tokyo</option>
@@ -217,132 +196,159 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<option>Taiwan</option>
 					<option>Spain</option>
 					<option>More</option>
-				</select>
+				</select>--%>
 			</div>
 			<div class="col-sm-4 price-top">
 				<h4>Category</h4>
-				<select class="in-drop">
-					<option>Select Category</option>
-					<option>Apartment</option>
-					<option>Independent House</option>
-					<option>Row House</option>
-					<option>Villa</option>
-					<option>Builder Floor</option>
-					<option>Farm House</option>
-					<option>Penthouse</option>
-				</select>
+				<asp:DropDownList ID="DrpCategory" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="">Please Select</asp:ListItem>  
+            <asp:ListItem>Villa</asp:ListItem>  
+            <asp:ListItem>Independent House</asp:ListItem>  
+            <asp:ListItem>Department</asp:ListItem>  
+            <asp:ListItem>Farm House</asp:ListItem>  
+			 
+
+        </asp:DropDownList>
 			</div>
 			<div class="col-sm-4 price-top">
 				<h4>Rooms</h4>
-				<select class="in-drop">
-					<option>No. of Bedrooms</option>
-					<option>1 BHK</option>
-					<option>2 BHK</option>
-					<option>3 BHK</option>
-					<option>4 BHK</option>
-					<option>4+ BHK</option>
-				</select>
+					<asp:DropDownList ID="DrpRoom" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="1" >Please Select</asp:ListItem>  
+            <asp:ListItem>1</asp:ListItem>  
+            <asp:ListItem>2</asp:ListItem>  
+            <asp:ListItem>3</asp:ListItem>  
+            <asp:ListItem>4</asp:ListItem>  
+		    <asp:ListItem>5</asp:ListItem>  
+						
+			 
+
+        </asp:DropDownList>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 		<div class="price-grid">
 			<div class="col-sm-6 price-top1">
-				<h4>Price Range</h4>
+				<h4> Sale Price Range</h4>
+					
+
 				<ul>
 					<li>
-						<select class="in-drop">
-							<option>Price From</option>
-							<option>0</option>
-							<option>5 Lacs </option>
-							<option>10 Lacs</option>
-							<option>15 Lacs</option>
-							<option>20 Lacs</option>
-							<option>25 Lacs</option>
-							<option>30 Lacs</option>
-							<option>35 Lacs</option>
-							<option>40 Lacs</option>
-							<option>45 Lacs</option>
-							<option>50 Lacs</option>
-							<option>55 Lacs</option>
-							<option>60 Lacs</option>
-							<option>65 Lacs</option>
-							<option>70 Lacs</option>
-							<option>75 Lacs</option>
-							<option>80 Lacs</option>
-							<option>85 Lacs</option>
-							<option>90 Lacs</option>
-							<option>95 Lacs</option>
-						</select>
+		  <asp:DropDownList ID="DrpSaleFrom" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="1">0</asp:ListItem>  
+            <asp:ListItem>10000</asp:ListItem>  
+            <asp:ListItem>20000</asp:ListItem>  
+            <asp:ListItem>50000</asp:ListItem>  
+            <asp:ListItem>80000</asp:ListItem>  
+		    <asp:ListItem>10000</asp:ListItem>  
+			<asp:ListItem>150000</asp:ListItem>  
+            <asp:ListItem>200000</asp:ListItem>  
+            <asp:ListItem>300000</asp:ListItem>  
+            <asp:ListItem>500000</asp:ListItem>  
+		    <asp:ListItem>1000000</asp:ListItem> 
+			 
+
+        </asp:DropDownList>
 					</li>
 					<span>-</span>
 					<li>
-						<select class="in-drop">
-							<option>Price To</option>
-							<option>5 Lacs</option>
-							<option>10 Lacs</option>
-							<option>15 Lacs</option>
-							<option>20 Lacs</option>
-							<option>25 Lacs</option>
-							<option>30 Lacs</option>
-							<option>35 Lacs</option>
-							<option>40 Lacs</option>
-							<option>45 Lacs</option>
-							<option>50 Lacs</option>
-							<option>55 Lacs</option>
-							<option>60 Lacs</option>
-							<option>65 Lacs</option>
-							<option>70 Lacs</option>
-							<option>75 Lacs</option>
-							<option>80 Lacs</option>
-							<option>85 Lacs</option>
-							<option>90 Lacs</option>
-							<option>95 Lacs</option>
-							<option>100 Cr</option>
-						</select>
+						<asp:DropDownList ID="DrpSaleTo" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="1">0</asp:ListItem>  
+            <asp:ListItem>20000</asp:ListItem>  
+            <asp:ListItem>40000</asp:ListItem>  
+            <asp:ListItem>100000</asp:ListItem>  
+            <asp:ListItem>200000</asp:ListItem>  
+		    <asp:ListItem>500000</asp:ListItem>  
+		    <asp:ListItem>1000000</asp:ListItem>  
+            <asp:ListItem>2000000</asp:ListItem>  
+            
+			 
+
+        </asp:DropDownList>
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 price-top1">
-				<h4>Area</h4>
+				<h4>Rent Price Range</h4>
+				
 				<ul>
 					<li>
-						<select class="in-drop">
-							<option>Sqmt From</option>
-							<option>0</option>
-							<option>500 Sq Ft</option>
-							<option>1000 Sq Ft</option>
-							<option>1500 Sq Ft</option>
-							<option>2000 Sq Ft</option>
-							<option>2500 Sq Ft</option>
-							<option>3000 Sq Ft</option>
-							<option>3500 Sq Ft</option>
-							<option>4000 Sq Ft</option>
-							<option>4500 Sq Ft</option>
-						</select>
+		  <asp:DropDownList ID="DrpRentFrom" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="1">0</asp:ListItem>  
+            <asp:ListItem>100</asp:ListItem>  
+            <asp:ListItem>200</asp:ListItem>  
+            <asp:ListItem>300</asp:ListItem>  
+            <asp:ListItem>500</asp:ListItem>  
+		    <asp:ListItem>1000</asp:ListItem>  
+		
+			 
+
+        </asp:DropDownList>
 					</li>
 					<span>-</span>
 					<li>
-						<select class="in-drop">
-							<option>Sqmt To</option>
-							<option>500 Sq Ft</option>
-							<option>1000 Sq Ft</option>
-							<option>1500 Sq Ft</option>
-							<option>2000 Sq Ft</option>
-							<option>2500 Sq Ft</option>
-							<option>3000 Sq Ft</option>
-							<option>3500 Sq Ft</option>
-							<option>4000 Sq Ft</option>
-							<option>4500 Sq Ft</option>
-							<option>5000+ Sq Ft</option>
-						</select>
+						<asp:DropDownList ID="DrpRentTo" class="DrpListCat" runat="server" >  
+            <asp:ListItem Value="1">0</asp:ListItem>  
+            <asp:ListItem>250</asp:ListItem>  
+            <asp:ListItem>350</asp:ListItem>  
+            <asp:ListItem>450</asp:ListItem>  
+            <asp:ListItem>1050</asp:ListItem>  
+		     
+            
+			 
+
+        </asp:DropDownList>
 					</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<!---->
-	<div class="top-grid">
+	<div class="dealer-top">
+        <asp:Button ID="BtnSearch" class="hvr-sweep-to-right more sess" runat="server" Text="Search" OnClick="BtnSearch_Click" />
+			<div class="deal-top-top">
+				<asp:Label ID="LblNoResult" runat="server" class="ark" Text=""></asp:Label>
+				<!--List View-->
+
+				<asp:ListView ID="LstBuy" runat="server">
+					<ItemTemplate>
+				<div class="col-md-3 top-deal-top">
+					<div class=" top-deal">
+						<a href="single.aspx" class="mask">
+							<asp:Image ID="ImgSearch" class="img-responsive zoom-img soo" ImageUrl='<%#Eval("IMAGE_PATH3") %>' runat="server" Width="253px" Height="200px" alt="" /></a>
+						<div class="deal-bottom">
+							<div class="top-deal1">
+								<h5>
+									<asp:Label ID="LblCity" runat="server" Text='<%#Eval("CITY")%> '></asp:Label></h5>
+				     	<asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label>
+
+								<asp:Label ID="LblPrice" runat="server" Text='<%#Eval ("PRICE")+"$" %> '></asp:Label>
+							</div>
+							<div class="top-deal2">
+								<a href="single.aspx?Item=<%#Eval("ID") %>" class="hvr-sweep-to-right more">More</a>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+						</ItemTemplate>
+					</asp:ListView>
+								<!--List View-->
+
+
+			
+				
+				</div>
+		</div>
+
+	
+
+	</form>
+	<br />
+	<br />
+	<br />
+	<br />
+		 <div class="clearfix"> </div>
+	<div class="top-grid alma">
 		<h3>Top City</h3>
 		<div class="grid-at">
 			<div class="col-md-3 grid-city">
@@ -438,6 +444,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!---->
 <!--premium-project-->
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
 <div class="premium">
 	<div class="pre-top">
 		<h5>Lorem Ipsum is simply dummy</h5>
@@ -451,58 +467,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3 >Fetured Projects</h3>
 			<div class="content-bottom-in">
 					<ul id="flexiselDemo1">			
+						<asp:ListView runat="server" ID="LstRentBuy">
+							<ItemTemplate>
+
+							
 						<li><div class="project-fur">
-								<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi.jpg" alt="" />	</a>
+								<a href="single.aspx?Item=<%#Eval("ID") %>" >
+									<asp:Image ID="Image6" runat="server"  ImageUrl='<%#Eval("IMAGE_PATH") %>' class="img-responsive"  alt="" Width="265px" Height="211px" /></a>
 									<div class="fur">
 										<div class="fur1">
-		                                    <span class="fur-money">$2.44 Lacs - 5.28 Lacs </span>
-		                                    <h6 class="fur-name"><a href="single.aspx">Contrary to popular</a></h6>
-		                                   	<span>Paris</span>
+		                                    <span class="fur-money">
+												<asp:Label ID="Label2" runat="server" Text='<%#Eval("BUILD_UP_AREA")+" m²" %>'></asp:Label></span>
+		                                    <h6 class="fur-name"><a href="single.aspx?Item=<%#Eval("ID") %>">
+												<asp:Label ID="Label4" class="green" runat="server" Text='<%#Eval("CATEGORY") %>'></asp:Label></a></h6>
+		                                   	<span>
+												   <asp:Label ID="Label3" runat="server" Text='<%#Eval("CITY") %>'></asp:Label></span>
                                			</div>
 			                            <div class="fur2">
-			                               	<span>2 BHK</span>
+			                               	<span>
+												   <asp:Label ID="Label5" runat="server" Text='<%#Eval("RENT_PRICE") +"₼ Per Month" %>'></asp:Label></span>
 			                             </div>
 									</div>					
 							</div></li>
-							<li><div class="project-fur">
-									<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi1.jpg" alt="" />	</a>
-										<div class="fur">
-											<div class="fur1">
-			                                    <span class="fur-money">$2.44 Lacs - 5.28 Lacs </span>
-			                                   <h6 class="fur-name"><a href="single.aspx">Contrary to popular</a></h6>
-			                                   	<span>Paris</span>
-	                               			</div>
-				                            <div class="fur2">
-				                               	<span>2 BHK</span>
-				                             </div>
-										</div>					
-								</div></li>
-								<li><div class="project-fur">
-								<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi2.jpg" alt="" />	</a>
-									<div class="fur">
-										<div class="fur1">
-		                                    <span class="fur-money">$2.44 Lacs - 5.28 Lacs </span>
-		                                   <h6 class="fur-name"><a href="single.aspx">Contrary to popular</a></h6>
-		                                   	<span>Paris</span>
-                               			</div>
-			                            <div class="fur2">
-			                               	<span>2 BHK</span>
-			                             </div>
-									</div>					
-							</div></li>
-							<li><div class="project-fur">
-								<a href="single.aspx" ><img class="img-responsive" src="/Front/images/pi3.jpg" alt="" />	</a>
-									<div class="fur">
-										<div class="fur1">
-		                                    <span class="fur-money">$2.44 Lacs - 5.28 Lacs </span>
-		                                    <h6 class="fur-name"><a href="single.aspx">Contrary to popular</a></h6>
-		                                   	<span>Paris</span>
-                               			</div>
-			                            <div class="fur2">
-			                               	<span>2 BHK</span>
-			                             </div>
-									</div>					
-							</div></li>
+						</ItemTemplate>
+						</asp:ListView>
+							
 					</ul>
 					<script type="text/javascript">
 						$(window).load(function() {
@@ -547,19 +536,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -568,7 +557,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -576,18 +565,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -596,10 +585,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>

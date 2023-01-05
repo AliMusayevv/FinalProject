@@ -68,11 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Front\about.aspx" />
-    <Content Include="Front\blog.aspx" />
     <Content Include="Front\blog_single.aspx" />
     <Content Include="Front\buy.aspx" />
     <Content Include="Front\buy_single.aspx" />
-    <Content Include="Front\career.aspx" />
     <Content Include="Front\contact.aspx" />
     <Content Include="Front\css\bootstrap.css" />
     <Content Include="Front\css\default.css" />
@@ -82,7 +80,6 @@
     <Content Include="Front\css\styles.css" />
     <Content Include="Front\dealers.aspx" />
     <Content Include="Front\faqs.aspx" />
-    <Content Include="Front\feedback.aspx" />
     <Content Include="Front\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Front\images\11.png" />
     <Content Include="Front\images\2.jpg" />
@@ -136,12 +133,81 @@
     <Content Include="Front\images\de7.jpg" />
     <Content Include="Front\images\de8.jpg" />
     <Content Include="Front\images\de9.jpg" />
+    <Content Include="Front\images\dep1.jpg" />
+    <Content Include="Front\images\dep2.jpg" />
+    <Content Include="Front\images\dep3.jpg" />
+    <Content Include="Front\images\dep4.jpg" />
+    <Content Include="Front\images\dep5.jpg" />
+    <Content Include="Front\images\dep6.jpg" />
+    <Content Include="Front\images\dep7.jpg" />
+    <Content Include="Front\images\dep8.jpg" />
+    <Content Include="Front\images\des.jpg" />
+    <Content Include="Front\images\des1.jpg" />
+    <Content Include="Front\images\des10.jpg" />
+    <Content Include="Front\images\des11.jpg" />
+    <Content Include="Front\images\des12.jpg" />
+    <Content Include="Front\images\des13.jpg" />
+    <Content Include="Front\images\des14.jpg" />
+    <Content Include="Front\images\des15.jpg" />
+    <Content Include="Front\images\des16.jpg" />
+    <Content Include="Front\images\des17.jpg" />
+    <Content Include="Front\images\des18.jpg" />
+    <Content Include="Front\images\des19.jpg" />
+    <Content Include="Front\images\des2.jpg" />
+    <Content Include="Front\images\des20.jpg" />
+    <Content Include="Front\images\des3.jpg" />
+    <Content Include="Front\images\des4.jpg" />
+    <Content Include="Front\images\des5.jpg" />
+    <Content Include="Front\images\des6.jpg" />
+    <Content Include="Front\images\des7.jpg" />
+    <Content Include="Front\images\des8.jpg" />
+    <Content Include="Front\images\des9.jpg" />
+    <Content Include="Front\images\fst1.jpg" />
+    <Content Include="Front\images\fst10.jpg" />
+    <Content Include="Front\images\fst11jpg.jpg" />
+    <Content Include="Front\images\fst12.jpg" />
+    <Content Include="Front\images\fst13.jpg" />
+    <Content Include="Front\images\fst14.jpg" />
+    <Content Include="Front\images\fst15.jpg" />
+    <Content Include="Front\images\fst16.jpg" />
+    <Content Include="Front\images\fst17.jpg" />
+    <Content Include="Front\images\fst18.jpg" />
+    <Content Include="Front\images\fst19.jpg" />
+    <Content Include="Front\images\fst2.jpg" />
+    <Content Include="Front\images\fst20.jpg" />
+    <Content Include="Front\images\fst3.jpg" />
+    <Content Include="Front\images\fst4.jpg" />
+    <Content Include="Front\images\fst5.jpg" />
+    <Content Include="Front\images\fst6.jpg" />
+    <Content Include="Front\images\fst7.jpg" />
+    <Content Include="Front\images\fst8.jpg" />
+    <Content Include="Front\images\fst9.jpg" />
     <Content Include="Front\images\ga.jpg" />
     <Content Include="Front\images\ga1.jpg" />
     <Content Include="Front\images\ga2.jpg" />
     <Content Include="Front\images\ga3.jpg" />
     <Content Include="Front\images\ho1.jpg" />
     <Content Include="Front\images\img-sprite.png" />
+    <Content Include="Front\images\inn1.jpg" />
+    <Content Include="Front\images\inn10.jpg" />
+    <Content Include="Front\images\inn11.jpg" />
+    <Content Include="Front\images\inn12.jpg" />
+    <Content Include="Front\images\inn13.jpg" />
+    <Content Include="Front\images\inn14.jpg" />
+    <Content Include="Front\images\inn15.jpg" />
+    <Content Include="Front\images\inn16.jpg" />
+    <Content Include="Front\images\inn17.jpg" />
+    <Content Include="Front\images\inn18.jpg" />
+    <Content Include="Front\images\inn19.jpg" />
+    <Content Include="Front\images\inn2.jpg" />
+    <Content Include="Front\images\inn20.jpg" />
+    <Content Include="Front\images\inn3.jpg" />
+    <Content Include="Front\images\inn4.jpg" />
+    <Content Include="Front\images\inn5.jpg" />
+    <Content Include="Front\images\inn6.jpg" />
+    <Content Include="Front\images\inn7.jpg" />
+    <Content Include="Front\images\inn8.jpg" />
+    <Content Include="Front\images\inn9.jpg" />
     <Content Include="Front\images\lg.png" />
     <Content Include="Front\images\lg1.png" />
     <Content Include="Front\images\lg2.png" />
@@ -191,6 +257,12 @@
     <Content Include="Front\images\te.jpg" />
     <Content Include="Front\images\te1.jpg" />
     <Content Include="Front\images\te2.jpg" />
+    <Content Include="Front\images\uc1.jpg" />
+    <Content Include="Front\images\uc2.jpg" />
+    <Content Include="Front\images\uc3.jpeg" />
+    <Content Include="Front\images\uc4.jpg" />
+    <Content Include="Front\images\z1.jpg" />
+    <Content Include="Front\images\z2.jpg" />
     <Content Include="Front\index.aspx" />
     <Content Include="Front\js\easyResponsiveTabs.js" />
     <Content Include="Front\js\jquery.flexisel.js" />
@@ -199,8 +271,6 @@
     <Content Include="Front\js\jquery.min.js" />
     <Content Include="Front\js\responsiveslides.min.js" />
     <Content Include="Front\js\scripts.js" />
-    <Content Include="Front\loan.aspx" />
-    <Content Include="Front\loan_single.aspx" />
     <Content Include="Front\login.aspx" />
     <Content Include="Front\mobile_app.aspx" />
     <Content Include="Front\privacy.aspx" />
@@ -208,7 +278,6 @@
     <Content Include="Front\single.aspx" />
     <Content Include="Front\suggestion.aspx" />
     <Content Include="Front\terms.aspx" />
-    <Content Include="Front\typo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -220,13 +289,6 @@
     </Compile>
     <Compile Include="Front\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Front\blog.aspx.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\blog.aspx.designer.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
     </Compile>
     <Compile Include="Front\blog_single.aspx.cs">
       <DependentUpon>blog_single.aspx</DependentUpon>
@@ -249,13 +311,6 @@
     <Compile Include="Front\buy_single.aspx.designer.cs">
       <DependentUpon>buy_single.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Front\career.aspx.cs">
-      <DependentUpon>career.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\career.aspx.designer.cs">
-      <DependentUpon>career.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Front\contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -277,33 +332,12 @@
     <Compile Include="Front\faqs.aspx.designer.cs">
       <DependentUpon>faqs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Front\feedback.aspx.cs">
-      <DependentUpon>feedback.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\feedback.aspx.designer.cs">
-      <DependentUpon>feedback.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Front\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Front\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Front\loan.aspx.cs">
-      <DependentUpon>loan.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\loan.aspx.designer.cs">
-      <DependentUpon>loan.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Front\loan_single.aspx.cs">
-      <DependentUpon>loan_single.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\loan_single.aspx.designer.cs">
-      <DependentUpon>loan_single.aspx</DependentUpon>
     </Compile>
     <Compile Include="Front\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -353,13 +387,6 @@
     </Compile>
     <Compile Include="Front\terms.aspx.designer.cs">
       <DependentUpon>terms.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Front\typo.aspx.cs">
-      <DependentUpon>typo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\typo.aspx.designer.cs">
-      <DependentUpon>typo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

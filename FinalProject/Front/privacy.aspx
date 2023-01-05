@@ -1,11 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="privacy.aspx.cs" Inherits="FinalProject.Front.privacy" %>
 
-<!--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog.aspx">Blog</a></li>
+						<li><a  href="blog_single.aspx">Blog</a></li>
 						<li><a  href="terms.aspx">Terms</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
@@ -53,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--//logo-->
 		<div class="top-nav">
 			<ul class="right-icons">
-				<li><span ><i class="glyphicon glyphicon-phone"> </i>+1384 757 546</span></li>
+				<li><span ><i class="glyphicon glyphicon-phone"> </i>+994 077 639 96 66</span></li>
 				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
 				<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a></li>
 				
@@ -77,36 +72,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="sap_tabs">	
 				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
-							  <div class="clearfix"></div>
+						  	  
 						  </ul>				  	 
 						  <div class="resp-tabs-container">
-						  		<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
-								 	<div class="facts">
-									  	<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div>        
-							        </div>
-						  		</div>
-							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="facts">									
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							        </div>	
-								 </div>									
-							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									 <div class="facts">
-										<div class="login">
-											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
-									 		<input type="submit" value="">
-									 	</div> 
-							         </div>	
-							    </div>
+						  		
 					      </div>
 					 </div>
 					 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
@@ -156,7 +125,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
 				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
 				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem2"><a href="loan.aspx">Home Loan</a></li>
 				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
 				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
 			</ul>
@@ -192,34 +160,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="privacy">
 	<div class="container">
 		<h3>Privacy Policy</h3>
-		<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur.</p>
+		<p>Welcome! Real Home  is an online platform dedicated to project renovation and construction. Real Home brings together professionals who are working in the construction field, material suppliers, and project owners altogether. Through Real Home, people can find services and materials related to project renovation and construction.We collect personal information that you provide us, from third parties, and automatically when you use our Platform. We only receive information about your location only when you request a service.</p>
 		<h4>Collection:</h4>
 		<p class="privacy-para">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum</p>
 		<ul class="privacy-start">
-			<li><a href="#"><i></i>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids .</a></li>
-			<li><a href="#"><i></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed .</a></li>
-			<li><a href="#"><i></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</a></li>
-			<li><a href="#"><i></i>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids .</a></li>
-			<li><a href="#"><i></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed .</a></li>
-			<li><a href="#"><i></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</a></li>
+			<li><a ><i></i>We collect information that you provide us, including your account and profile information, content you submit or post to our Platform, your purchase information, your communications.</a></li>
+			<li><a ><i></i>When you create an account on Real Home, we collect the information you provide us, like your name, email address, interests, gender, age, and profile information. If you are a professional, you may also provide us information related to your business, including business descriptions and areas served.</a></li>
+			<li><a ><i></i>Others may post content on the Real Home that includes information about you (for example, as part of photos, stories, and reviews) </a></li>
+			<li><a ><i></i>Each time you access the  Real Home, information is sent to our server by your Internet browser or app and stored in our log files. We collect information about other account visits in the  Platform, and the date and time of your visit, and if you use our browser extensions.</a></li>
+			<li><a ><i></i>We do not rent or sell your personal contact information (such as your email address associated with your account registration) to third parties to use for any purpose. We share personal information in the following ways:</a></li>
+			<li><a ><i></i>One of the main purposes of having a Real Home account is to share Project renovation and construction with others. Through Real Home, others have the ability to find, contact, view your profile and public activity on Bina App.</a></li>
 		</ul>
 		<h4 class="use-privay">Use:</h4>
 		<ul class="privacy-start">
-			<li><a href="#"><i></i>Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
-			<li><a href="#"><i></i>There are many variations of passages of Lorem Ipsum available.</a></li>
-			<li><a href="#"><i></i>It is a long established fact that a reader will be distracted.</a></li>
-			<li><a href="#"><i></i>Lorem Ipsum is simply dummy text of the printing.</a></li>
-			<li><a href="#"><i></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</a></li>
-			<li><a href="#"><i></i>Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
-			<li><a href="#"><i></i>There are many variations of passages of Lorem Ipsum available.</a></li>
-			<li><a href="#"><i></i>It is a long established fact that a reader will be distracted.</a></li>
-			<li><a href="#"><i></i>Lorem Ipsum is simply dummy text of the printing.</a></li>
-			<li><a href="#"><i></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</a></li>
-			<li><a href="#"><i></i>Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
-			<li><a href="#"><i></i>There are many variations of passages of Lorem Ipsum available.</a></li>
-			<li><a href="#"><i></i>It is a long established fact that a reader will be distracted.</a></li>
-			<li><a href="#"><i></i>Lorem Ipsum is simply dummy text of the printing.</a></li>
-			<li><a href="#"><i></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</a></li>
+			<li><a ><i></i>Platform Visitors and Users.</a></li>
+			<li><a ><i></i>Communications</a></li>
+			<li><a ><i></i>Account Termination and Data Retention</a></li>
+			<li><a ><i></i>Lorem Ipsum is simply dummy text of the printing.</a></li>
+			<li><a ><i></i>Our Platform is intended for general audiences and is not directed to children under 18. If you become aware or believe that a child has provided us with personal information, please contact us as provided in the Contact Us section.</a></li>
+			<li><a ><i></i>We use reasonable and appropriate measures to protect your personal information from loss, misuse, and destruction.</a></li>
+			<li><a ><i></i>We may revise this Privacy Policy from time to time. If we make material changes to our Privacy Policy, we will notify you by posting a notice on our Platform or by other means, to offer you an opportunity to review the changes before they become effective. By continuing to access or use our Platform after those changes become effective, you are subject to the revised Privacy Policy.
+
+ </a></li>
+			<li><a ><i></i>Real Home is responsible for the use of your personal information. If you have questions or comments about this Privacy Policy (including about how we or our service providers treat your personal information), you may contact us in the following ways: please email us at info@bina-app.com or call us at +9440776399666</a></li>
+			
 		</ul>
 	</div>
 </div>
@@ -236,19 +200,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
-					<li><a href="blog.aspx">Blog</a></li>
+				
 					
 				</ul>	
 			</div>
 			<div class="col-md-3 amet-sed ">
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
-						<li><a href="single.aspx">Real Estate Brokers</a></li>
-						<li><a href="single.aspx">Business Development</a></li>
-						<li><a href="single.aspx">Affiliate Programs</a></li>
+						
+						<li><a href="about.aspx">Business Development</a></li>
+						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
 						<li><a href="contact.aspx">Sitemap</a></li>
-						<li><a href="career.aspx">Careers</a></li>
-						<li><a href="feedback.aspx">Feedback</a></li>	
+					
+						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
@@ -257,7 +221,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Sat-Sun, 8AM-5PM </p>
 				<p>177-869-6559</p>
 					<ul class="nav-bottom">
-						<li><a href="#">Live Chat</a></li>
+						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
 						<li><a href="suggestion.aspx">Make a Suggestion</a></li>
 					</ul>	
@@ -265,18 +229,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="single.aspx">Residential Property</a></li>
-						<li><a href="single.aspx">Commercial Property</a></li>
+						<li><a href="blog_single.aspx">Residential Property</a></li>
+						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
-						<li><a href="typo.aspx">Short Codes</a></li>	
+						
 					</ul>	
 					<ul class="social">
-						<li><a href="#"><i> </i></a></li>
-						<li><a href="#"><i class="gmail"> </i></a></li>
-						<li><a href="#"><i class="twitter"> </i></a></li>
-						<li><a href="#"><i class="camera"> </i></a></li>
-						<li><a href="#"><i class="dribble"> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						
 					</ul>
 			</div>
 		<div class="clearfix"> </div>
@@ -285,10 +249,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-bottom">
 		<div class="container">
 			<div class="col-md-4 footer-logo">
-				<h2><a href="index.aspx">REAL HOME</a></h2>
+				<h2><a href="#">REAL HOME</a></h2>
 			</div>
 			<div class="col-md-8 footer-class">
-				<p >© 2015 Real Home. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+				<p >© 2023 Real Home. All Rights Reserved | Design by Ali Musayev</p>
 			</div>
 		<div class="clearfix"> </div>
 	 	</div>
