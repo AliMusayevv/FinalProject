@@ -20,6 +20,7 @@ namespace FinalProject.Front
 
         protected void BtnLogSubmit_Click(object sender, EventArgs e)
         {
+            try { 
             SqlConnection conn = new SqlConnection(DataSource.DS);
 
             if (conn.State != ConnectionState.Open)
@@ -41,6 +42,11 @@ namespace FinalProject.Front
                 LblLogMessage.Text = "acces denay";
             }
             conn.Close();
+            }
+            catch
+            {
+                Response.Redirect("404.aspx");
+            }
         }
     }
 }

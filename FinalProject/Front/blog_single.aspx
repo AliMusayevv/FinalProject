@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//-->	
 <div class=" banner-buying">
 	<div class=" container">
-	<h3><span>Lor</span>em</h3> 
+	<h3><span>Bl</span>og</h3> 
 	<!---->
 	<div class="menu-right">
 		 <ul class="menu">
@@ -163,14 +163,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class="col-md-9 blog-head">
 	     <div class="blog-top">
 	        <img src="/Front/images/bl.jpg" class="img-responsive" alt=""/>
-	          <h4>Blog Heading Here</h4>
-	         <h5>Posted By : <a href="#">Ipsum</a> | Date : 03-03-2015</h5>
+	          <h4>Real Estate</h4>
+	         <h5>Posted By : <a >Ali Musayev</a> | Date : 09-01-2023</h5>
 	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make. a type specimen book. It has survived not only five centuries. but also the leap into electronic typesetting, remaining essentially unchanged. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, </p>
 	       <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
 	           <div class="links">
 		  		  <ul class="blog-links">
-		  			<li><a href="#"><i class="blog_circle">24 </i><span>Comments</span></a></li>
-		  			<li><a href="#"><i class="glyphicon glyphicon-heart"> </i><span>Like</span></a></li>
+		  			<li><a ><i class="blog_circle">24 </i><span>Comments</span></a></li>
+		  			<li><a ><i class="glyphicon glyphicon-heart"> </i><span>Like</span></a></li>
 		  		  </ul>
 		  	   </div>
 		 </div> 
@@ -179,45 +179,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h5>Our Comment</h5>
 				 <div class="media">
 		          <div class="media-left">
-		            <a href="#">
-		            	<img class="media-object" src="/Front/images/av.png" alt="" />
+		            <a >
+		            	<img class="media-object siz" src="/Front/images/pp1.jpg" alt="" />
 		            </a>
 		          </div>
 		          <div class="media-body">
-		            <h4 class="media-heading">Nested media heading</h4>
-		              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+		            <h4 class="media-heading">Aslan Kazimov</h4>
+		              <p> Happy to recommend Real Home - smart, responsive, seamless service. I was able to be a lot more flexible when negotiating the rent because of using OpenRent and instead of paying lots to an agent I was able to pay for a cooker and extra plumbing/electrical work when I was right at the very end of my renovation budget.</p>
 		          </div>
 		        </div>
       			<div class="media">
 		          <div class="media-left">
-		            <a href="#">
-		            	<img class="media-object" src="/Front/images/av.png" alt="" />
+		            <a>
+		            	<img class="media-object siz" src="/Front/images/pp2.jpg" alt="" />
 		            </a>
 		          </div>
 		          <div class="media-body">
-		            <h4 class="media-heading">Nested media heading</h4>
-		              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+		            <h4 class="media-heading">Ismayil Aliyev</h4>
+		              <p> Thanks to you and your site I have got a contract signed and the deposit and all achieved within 24 hours of listing with Real Home. On the first morning after listing on Thurs afternoon I received 4 inquiries which resulted in 2 requests to view that same day, one of which turned into a done deal by 5.30 pm. I had previously listed via the local paper which wasn't cheap and only produced about 6 inquiries leading to 2 viewings and 2 no shows, I also listed on gumtree which fared little better.</p>
 		          	<div class="media">
 		          <div class="media-left">
-		            <a href="#">
-		            	<img class="media-object" src="/Front/images/av.png" alt="" />
+		            <a >
+		            	<img class="media-object siz" src="/Front/images/pp3.jpg" alt="" />
 		            </a>
 		          </div>
 		          <div class="media-body">
-		            <h4 class="media-heading">Nested media heading</h4>
-		              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+		            <h4 class="media-heading">Akhmed Sadigov</h4>
+		              <p> So often an online experience is disappointing so when something is good it should be praised. I think it's an amazing website and service that has obviously been devised with massive care and attention. I normally use gumtree but its rep has suffered over recent years and the site is dated and glitchy - good to have a credible and very superior alternative.</p>
 		          	
 		          </div>
 		        </div>
 		        <div class="media">
 		          <div class="media-left">
-		            <a href="#">
-		            	<img class="media-object" src="/Front/images/av.png" alt="" />
+		            <a >
+		            	<img class="media-object siz" src="/Front/images/pp4.jpg" alt="" />
 		            </a>
 		          </div>
 		          <div class="media-body">
-		            <h4 class="media-heading">Nested media heading</h4>
-		              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+		            <h4 class="media-heading">Etibar Zeynalli</h4>
+		              <p>I would just like to say how easy and efficient open rent are. From emailing the company and receiving responses to the fantastic feature of receiving texts when an interest leaves a message is something i have not come across before and when you dont have internet access for any given reason is a fast effect method to let the Landlord know someone is interested. Great reach in all search websites. Top notch!!! Thanks Real Home  I now have great tenants just moved in. I have recommended you to a friend and sent them a URL link. :)</p>
 		          	
 		          </div>
 		        </div>
@@ -225,24 +225,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        </div>
 		 	 <div class="media">
 	          <div class="media-left">
-	            <a href="#">
-	            	<img class="media-object" src="/Front/images/av.png" alt="" />
+	            <a >
+	            	<img class="media-object siz" src="/Front/images/pp5.jpg" alt="" />
 	            </a>
 	          </div>
 	          <div class="media-body">
-	            <h4 class="media-heading">Nested media heading</h4>
-	              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+	            <h4 class="media-heading">Togrul Asgarli</h4>
+	              <p> I have used Real Home successfully twice myself and have just added my third listing, and I've recommended your service twice. The first referral resulted in three listings on Real Home, which led to three successful lettings within three days! The second referral will place a listing soon I hope. I can't recommend you highly enough!</p>
 	          </div>
 	        </div>
 	        <div class="media">
 	          <div class="media-left">
-	            <a href="#">
-	            	<img class="media-object" src="/Front/images/av.png" alt="" />
+	            <a >
+	            	<img class="media-object siz" src="/Front/images/pp6.jpg" alt="" />
 	            </a>
 	          </div>
 	          <div class="media-body">
-	            <h4 class="media-heading">Nested media heading</h4>
-	              <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+	            <h4 class="media-heading">Omar Mammedli</h4>
+	              <p> Working with Real Home has made the whole renting process a breeze. They are speedy, reliable and personable. The service is well above what you would expect from an online or even offline 'estate agent'. The superb value and exemplary service means that we will definitely be using their service again.</p>
 	          </div>
 	        </div>
 		</div>
@@ -253,18 +253,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="col-md-3 blog-sidebar">
 		<div class="blog-list">
-	     	<h4>Categories</h4>
+	     	
 			<ul >
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>Lorem Ipsum is simply</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>Contrary to popular belief</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>It is a long established</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>There are many variations</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>Sed ut perspiciatis unde</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>But I must explain to you</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>At vero eos et accusamus</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>On the other hand</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>Lorem Ipsum is simply</a></li>
-				<li><a href="#"><i class="glyphicon glyphicon-arrow-right"> </i>Contrary to popular belief</a></li>
+				
 			</ul>
 			
 			<div class="clearfix"> </div>
@@ -284,16 +275,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
 			</ul>
 		 </div>
-		 <div class="blog-list1">
+		<div class="blog-list1">
 	     	<h4>Popular Posts</h4>
+		<!--ListView-->
+		<asp:ListView ID="LstMostPop" runat="server">
+			<ItemTemplate>
+
+			
+		 
 			<div class="blog-list-top">
 				<div class="blog-img">
-					<a href="blog_single.aspx"><img class="img-responsive" src="/Front/images/bo.jpg" alt="">
+					<a href="single.aspx?Item=<%#Eval("ID") %>">
+						<asp:Image ID="Image1" runat="server" ImageUrl='<%#Eval("IMAGE_PATH") %>' class="img-responsive" alt="" /></a>
 				</div>
 				<div class="blog-text">
-					<p ><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<p ><a href="#">
+						<asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label></a></p>
 					<span class="link">
-						Feb 14, 2015
+						<asp:Label ID="LblPrice" runat="server" Text='<%#Eval("PRICE")+" ₼"%> '></asp:Label>
 						<a href="#">
 							<i class="glyphicon glyphicon-heart"> </i>
 						</a>16
@@ -301,7 +300,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="blog-list-top">
+
+				</ItemTemplate>
+		</asp:ListView>
+			 		<!--ListView-->
+
+			<%--<div class="blog-list-top">
 				<div class="blog-img">
 					<a href="blog_single.aspx"><img class="img-responsive" src="/Front/images/bo1.jpg" alt=""></a>
 				</div>
@@ -360,7 +364,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</span>
 				</div>
 				<div class="clearfix"> </div>
-			</div>
+			</div>--%>
 		 </div>
 		 
 	 </div>
@@ -417,10 +421,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 					</ul>	
 					<ul class="social">
-						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/" target="_blank"><i> </i></a></li>
 						
-						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
-						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961" target="_blank"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/" target="_blank"><i class="camera"> </i></a></li>
 						
 					</ul>
 			</div>

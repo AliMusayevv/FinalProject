@@ -161,24 +161,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<h3>Register</h3>
 		<div class="login-top">
-				<ul class="login-icons">
-					<li><a href="#" ><i class="facebook"> </i><span>Facebook</span></a></li>
-					<li><a href="#" class="twit"><i class="twitter"></i><span>Twitter</span></a></li>
-					<li><a href="#" class="go"><i class="google"></i><span>Google +</span></a></li>
-					<li><a href="#" class="in"><i class="linkedin"></i><span>Linkedin</span></a></li>
-					<div class="clearfix"> </div>
-				</ul>
+				
+			<asp:Label ID="LblExists" runat="server" Text="."></asp:Label>
 				<div class="form-info">
 					<form runat="server">
-						<asp:TextBox ID="TxtFirstName" placeholder="Firstname" runat="server"></asp:TextBox>
-					  <asp:TextBox ID="TxtLastName" placeholder="Lastname" runat="server"></asp:TextBox>
-              		<asp:TextBox ID="TxtUsername" placeholder="Username" runat="server"></asp:TextBox>
-						<asp:TextBox ID="TxtEmail" type="email" placeholder="Email Adress" runat="server"></asp:TextBox>
-						<asp:TextBox ID="TxtPassword" placeholder="Password" runat="server" type="password"></asp:TextBox>
-	<div><asp:DropDownList ID="DrpPhone" class="drpList" runat="server"></asp:DropDownList><asp:TextBox ID="TxtPhone" placeholder="Phone" runat="server"></asp:TextBox></div>
-						<asp:TextBox ID="TxtCity" placeholder="City" runat="server"></asp:TextBox>
-						<asp:TextBox ID="TxtSalary" placeholder="Monthly Salary(Manat)" runat="server"></asp:TextBox>
-						<asp:Label ID="LblExists" runat="server" Text="."></asp:Label>
+						<asp:TextBox ID="TxtFirstName" placeholder="Firstname" class="txtL bot" runat="server"></asp:TextBox>
+					  <asp:TextBox ID="TxtLastName" placeholder="Lastname" class="txtL bot" runat="server"></asp:TextBox>
+              		<asp:TextBox ID="TxtUsername" placeholder="Username" class="txtL bot" runat="server"></asp:TextBox>
+						<asp:TextBox ID="TxtEmail" type="email" class="txtL bot" placeholder="Email Adress" runat="server"></asp:TextBox>
+						<asp:TextBox ID="TxtPassword" placeholder="Password" class="txtL bot" runat="server" type="password"></asp:TextBox>
+	<asp:DropDownList ID="DrpPhone" class="drpList" runat="server"></asp:DropDownList><asp:TextBox ID="TxtPhone" class="txtL" placeholder="Phone" runat="server"></asp:TextBox>
+						<asp:TextBox ID="TxtCity" placeholder="City" class="txtL" runat="server"></asp:TextBox>
+						<asp:TextBox ID="TxtSalary" class="txtL" placeholder="Monthly Salary(Manat)" runat="server"></asp:TextBox>
+						
 						<br />
 						 <label class="hvr-sweep-to-right">
 							 <asp:Button ID="BtnRegSubmit" runat="server" OnClick="BtnRegSubmit_Click" Text="Sign Up" />

@@ -11,16 +11,25 @@ namespace FinalProject.Front
 {
 
 
-    public partial class blog_single
+    public partial class _404
     {
 
         /// <summary>
-        /// LstMostPop control.
+        /// TxtError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView LstMostPop;
+        protected global::System.Web.UI.WebControls.TextBox TxtError;
+
+        /// <summary>
+        /// BtnSend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnSend;
     }
 }

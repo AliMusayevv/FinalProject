@@ -59,6 +59,9 @@ h1,h2,h3,h4,h5,h6,label,p{
 	font-size: 0.9em;
 	outline: none;
 }
+.hh{
+	height:70px!important;
+}
 .alma{
 	position:relative;
 	top:300px;
@@ -67,6 +70,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	border: 1px solid #000 !important;
 	padding: 0.4em 0.5em !important;
 	width: 100% !important;
+	height:40px;
 	color: #000 !important;
 	font-size: 0.9em !important;
 	outline: none !important;
@@ -366,6 +370,15 @@ h2.resp-accordion:hover{
   	font-size: 1.1em;
   	color: #DADADA;
 }
+.login input[type="email"] {
+		outline: none;
+		padding: 8px 15px;
+		background: none;
+		width: 93%;
+		border: none;
+		font-size: 1.1em;
+		color: #DADADA;
+	}
 .login input[type="submit"] {	
 	width: 32px;
 	height: 32px;
@@ -2109,6 +2122,14 @@ ul.loan-col1 li input[type="text"]{
 	padding: 5px 10px;
 	width: 100%;
 }
+ul.loan-col1 li input[type="email"] {
+	outline: none;
+	font-size: 1em;
+	color: #000;
+	border: 1px solid #D7D7D7;
+	padding: 5px 10px;
+	width: 100%;
+}
 select.drop-select1 {
   	border: 1px solid #D7D7D7;
   	padding: 0.4em 0.5em;
@@ -2522,6 +2543,14 @@ font-family: 'Montserrat-Regular';
 .blog-top h4 a:hover {
   color:#000;
 }
+.siz{
+	height:100px;
+	width:120px;
+}
+.sizs {
+	height: 80px;
+	width: 120px;
+}
 .blog-top h5{
   color: #A3A3A3;
   font-size: 0.85em;
@@ -2532,7 +2561,7 @@ font-family: 'Montserrat-Regular';
 .blog-top p{
 	padding:1em 0 0;
 	font-size: 0.9em;
-	color:#a3a3a3;
+	color:#000;
 	line-height: 2em;
 }
 .links {
@@ -2571,7 +2600,7 @@ ul.blog-links li a i{
 	list-style: none;
 }
 .blog-list li  a{
-	color:#a3a3a3;
+	color:#000;
 	font-size:0.89em;
 	text-decoration: none;
 	display:block;
@@ -2664,7 +2693,7 @@ font-family: 'Montserrat-Regular';
 .media-body p {
   padding: 0.5em 0 0;
   font-size: 0.9em;
-  color: #a3a3a3;
+  color: #000;
   line-height: 2em;
 }
 .leave input[type="text"]{
@@ -2675,6 +2704,15 @@ font-family: 'Montserrat-Regular';
 	padding: 0.5em 0.8em;
 	width: 100%;
   	margin: 0 0 1em;
+}
+.leave input[type="email"] {
+	border: 1px solid #eee;
+	outline: none;
+	color: #a3a3a3;
+	font-size: 0.9em;
+	padding: 0.5em 0.8em;
+	width: 100%;
+	margin: 0 0 1em;
 }
 .leave textarea{
 	border: 1px solid #eee;
@@ -3093,6 +3131,17 @@ ul.login-icons li:nth-child(2),ul.login-icons li:nth-child(4) {
   width: 100%;
   -webkit-appearance: none;
 }
+.feedback-top input[type="email"], .feedback-top textarea {
+	padding: 0.8em 1em;
+	font-size: 0.85em;
+	margin: 0 0 0.8em;
+	border: 1px solid #A3A3A3;
+	color: #a3a3a3;
+	background: none;
+	outline: none;
+	width: 100%;
+	-webkit-appearance: none;
+}
 .feedback-top textarea{
 	height:150px;
 	resize:none;
@@ -3139,7 +3188,7 @@ ul.login-icons li:nth-child(2),ul.login-icons li:nth-child(4) {
 }
 .questions p{
 	font-size: 0.9em;
-  	color: #A3A3A3;
+  	color: #000;
   	padding:1em 0;
   	line-height: 2em;
 }
@@ -4037,10 +4086,25 @@ span.four {
 .banner-bottom-top {
   min-height: 46px;
 }
+.b4{
+	height:30px!important;
+}
+.azza{
+	position:absolute;
+	left:30px !important;
+}
+.bot{
+	position:absolute !important;
+	top:100px !important;
+}
 .login input[type="text"] {
   width: 89%;
   font-size: 0.9em;
 }
+	.login input[type="email"] {
+		width: 89%;
+		font-size: 0.9em;
+	}
 .right-icons li span{
 	display: none;
 }

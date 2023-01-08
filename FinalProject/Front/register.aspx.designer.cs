@@ -15,6 +15,15 @@ namespace FinalProject.Front
     {
 
         /// <summary>
+        /// LblExists control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblExists;
+
+        /// <summary>
         /// TxtFirstName control.
         /// </summary>
         /// <remarks>
@@ -94,15 +103,6 @@ namespace FinalProject.Front
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtSalary;
-
-        /// <summary>
-        /// LblExists control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblExists;
 
         /// <summary>
         /// BtnRegSubmit control.

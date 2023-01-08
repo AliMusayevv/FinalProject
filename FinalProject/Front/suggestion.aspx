@@ -166,14 +166,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<h3>Make a Suggestion</h3>
 		<div class="feedback-top">
-			<form>
-				<input type="text"  placeholder="Name"  required="">
-				<input type="text"  placeholder="Email "  required="">
-				<input type="text"  placeholder="Phone Number " required="" >
-				<input type="text"  placeholder="Subject " required="" >
-				<textarea  placeholder="Suggestion" requried=""></textarea>
+			<form runat="server">
+			<asp:TextBox ID="TxtName" type="text"  placeholder="Name"  required="" class="txtL" runat="server"></asp:TextBox>
+				<asp:TextBox ID="TxtEmail" type="email"  placeholder="Email " class="txtL" required="" runat="server"></asp:TextBox>
+			<asp:TextBox ID="TxtPhone" type="text"  placeholder="Phone Number " class="txtL" required="" runat="server"></asp:TextBox>
+				<asp:TextBox ID="TxtSubject"  type="text"   placeholder="Subject " class="txtL" required="" runat="server"></asp:TextBox>
+		
+					<asp:TextBox ID="TxtSuggestion" placeholder="Write suggestion" type="text" runat="server" TextMode="MultiLine"  class="txtL hh"></asp:TextBox>
 				 <label class="hvr-sweep-to-right">
-	           	<input type="submit" value="Submit">
+	           	<asp:Button ID="BtnSend" runat="server" type="submit" OnClick="BtnSend_Click"
+					   Text="Send" />
 	           </label>
 			</form>
 		</div>

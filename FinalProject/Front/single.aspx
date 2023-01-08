@@ -117,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//-->	
 <div class=" banner-buying">
 	<div class=" container">
-	<h3><span>Lor</span>em</h3> 
+	<h3> Real Estate</h3> 
 	<!---->
 	<div class="menu-right">
 		 <ul class="menu">
@@ -425,10 +425,10 @@ $(window).load(function() {
 						
 					</ul>	
 					<ul class="social">
-						<li><a href="https://www.facebook.com/realhomesmagazine/"><i> </i></a></li>
+						<li><a href="https://www.facebook.com/realhomesmagazine/" target="_blank"><i> </i></a></li>
 						
-						<li><a href="https://twitter.com/realhomes/status/1297982768308264961"><i class="twitter"> </i></a></li>
-						<li><a href="https://www.instagram.com/real_homes/"><i class="camera"> </i></a></li>
+						<li><a href="https://twitter.com/realhomes/status/1297982768308264961" target="_blank"><i class="twitter"> </i></a></li>
+						<li><a href="https://www.instagram.com/real_homes/" target="_blank"><i class="camera"> </i></a></li>
 						
 					</ul>
 			</div>

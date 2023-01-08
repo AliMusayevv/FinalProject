@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Front\404.aspx" />
     <Content Include="Front\about.aspx" />
     <Content Include="Front\blog_single.aspx" />
     <Content Include="Front\buy.aspx" />
@@ -77,6 +78,7 @@
     <Content Include="Front\css\flexslider.css" />
     <Content Include="Front\css\popuo-box.css" />
     <Content Include="Front\css\style.css" />
+    <Content Include="Front\css\style2.css" />
     <Content Include="Front\css\styles.css" />
     <Content Include="Front\dealers.aspx" />
     <Content Include="Front\faqs.aspx" />
@@ -92,12 +94,17 @@
     <Content Include="Front\images\at.jpg" />
     <Content Include="Front\images\at1.jpg" />
     <Content Include="Front\images\av.png" />
+    <Content Include="Front\images\azerqaz.jpg" />
+    <Content Include="Front\images\azkredit.jpg" />
+    <Content Include="Front\images\b1.jpg" />
     <Content Include="Front\images\ba.png" />
     <Content Include="Front\images\ba1.png" />
     <Content Include="Front\images\ba2.png" />
     <Content Include="Front\images\ba3.png" />
     <Content Include="Front\images\ba4.png" />
     <Content Include="Front\images\back1.jpg" />
+    <Content Include="Front\images\baku.jpg" />
+    <Content Include="Front\images\baku2.jpg" />
     <Content Include="Front\images\bl.jpg" />
     <Content Include="Front\images\bl1.jpg" />
     <Content Include="Front\images\bl2.jpg" />
@@ -162,9 +169,12 @@
     <Content Include="Front\images\des7.jpg" />
     <Content Include="Front\images\des8.jpg" />
     <Content Include="Front\images\des9.jpg" />
+    <Content Include="Front\images\doodles.png" />
+    <Content Include="Front\images\dust.png" />
+    <Content Include="Front\images\error.png" />
     <Content Include="Front\images\fst1.jpg" />
     <Content Include="Front\images\fst10.jpg" />
-    <Content Include="Front\images\fst11jpg.jpg" />
+    <Content Include="Front\images\fst11.jpg" />
     <Content Include="Front\images\fst12.jpg" />
     <Content Include="Front\images\fst13.jpg" />
     <Content Include="Front\images\fst14.jpg" />
@@ -186,6 +196,7 @@
     <Content Include="Front\images\ga1.jpg" />
     <Content Include="Front\images\ga2.jpg" />
     <Content Include="Front\images\ga3.jpg" />
+    <Content Include="Front\images\green.png" />
     <Content Include="Front\images\ho1.jpg" />
     <Content Include="Front\images\img-sprite.png" />
     <Content Include="Front\images\inn1.jpg" />
@@ -208,6 +219,8 @@
     <Content Include="Front\images\inn7.jpg" />
     <Content Include="Front\images\inn8.jpg" />
     <Content Include="Front\images\inn9.jpg" />
+    <Content Include="Front\images\iqd.jpg" />
+    <Content Include="Front\images\kapital.jpg" />
     <Content Include="Front\images\lg.png" />
     <Content Include="Front\images\lg1.png" />
     <Content Include="Front\images\lg2.png" />
@@ -221,6 +234,8 @@
     <Content Include="Front\images\lo.png" />
     <Content Include="Front\images\lo1.png" />
     <Content Include="Front\images\lo2.png" />
+    <Content Include="Front\images\nar.jpg" />
+    <Content Include="Front\images\nar2.jpg" />
     <Content Include="Front\images\pc1.jpg" />
     <Content Include="Front\images\pc2.jpg" />
     <Content Include="Front\images\pc3.jpg" />
@@ -235,6 +250,12 @@
     <Content Include="Front\images\pi1.jpg" />
     <Content Include="Front\images\pi2.jpg" />
     <Content Include="Front\images\pi3.jpg" />
+    <Content Include="Front\images\pp1.jpg" />
+    <Content Include="Front\images\pp2.jpg" />
+    <Content Include="Front\images\pp3.jpg" />
+    <Content Include="Front\images\pp4.jpg" />
+    <Content Include="Front\images\pp5.jpg" />
+    <Content Include="Front\images\pp6.jpg" />
     <Content Include="Front\images\pr.jpg" />
     <Content Include="Front\images\sb.jpg" />
     <Content Include="Front\images\sb1.jpg" />
@@ -254,6 +275,8 @@
     <Content Include="Front\images\ss2.jpg" />
     <Content Include="Front\images\ss3.jpg" />
     <Content Include="Front\images\star1.png" />
+    <Content Include="Front\images\sun.jpg" />
+    <Content Include="Front\images\t-icn.png" />
     <Content Include="Front\images\te.jpg" />
     <Content Include="Front\images\te1.jpg" />
     <Content Include="Front\images\te2.jpg" />
@@ -283,6 +306,13 @@
   <ItemGroup>
     <Compile Include="Back\DataSource.cs" />
     <Compile Include="Back\Register.cs" />
+    <Compile Include="Front\404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front\404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Front\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

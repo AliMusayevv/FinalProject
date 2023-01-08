@@ -193,23 +193,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="dealer-top">
 		<h4>Recent Deals</h4>
 			<div class="deal-top-top">
+
+				<!--listview-->
+				<asp:ListView ID="LstDealers" runat="server">
+					<ItemTemplate>
+
+					
 				<div class="col-md-3 top-deal-top">
 					<div class=" top-deal">
-						<a href="single.aspx" class="mask"><img src="/Front/images/de.jpg" class="img-responsive zoom-img" alt=""></a>
+						<a href="single.aspx" class="mask"> <asp:Image ID="Image1" runat="server" ImageUrl='<%#Eval("IMAGE_PATH3") %>' class="img-responsive zoom-img" alt="" Width="400px" Height="200px" /></a>
 						<div class="deal-bottom">
 							<div class="top-deal1">
-								<h5><a href="single.aspx"> ut perspiciatis</a></h5>
-								<p>Plot Area : 150 Sq.Yrds</p>
-								<p>Price: $250000</p>
+								<h5><a href="single.aspx"> <asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label></a></h5>
+								<p>
+									<asp:Label ID="LblPrice" runat="server" Text='<%#Eval("PRICE")%> '></asp:Label>
+								</p>
 							</div>
 							<div class="top-deal2">
-								<a href="single.aspx" class="hvr-sweep-to-right more">More</a>
+								<a href="single.aspx?Item=<%#Eval("ID") %>" class="hvr-sweep-to-right more">More</a>
 							</div>
 						<div class="clearfix"> </div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 top-deal-top">
+						</ItemTemplate>
+				</asp:ListView>
+
+				<!--list wiew-->
+				<%--<div class="col-md-3 top-deal-top">
 					<div class=" top-deal">
 						<a href="single.aspx" class="mask"><img src="/Front/images/de1.jpg" class="img-responsive zoom-img" alt=""></a>
 						<div class="deal-bottom">
@@ -240,8 +251,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-3 top-deal-top ">
+				</div>--%>
+				<%--<div class="col-md-3 top-deal-top ">
 					<div class=" top-deal">
 						<a href="single.aspx" class="mask"><img src="/Front/images/de3.jpg" class="img-responsive zoom-img" alt=""></a>
 						<div class="deal-bottom">
@@ -390,7 +401,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 						</div>
 					</div>
-				</div>
+				</div>--%>
 			<div class="clearfix"> </div>
 		</div>		
 	</div>

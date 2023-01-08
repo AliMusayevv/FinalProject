@@ -313,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ItemTemplate>
 				<div class="col-md-3 top-deal-top">
 					<div class=" top-deal">
-						<a href="single.aspx" class="mask">
+						<a href="single.aspx?Item=<%#Eval("ID") %>" class="mask">
 							<asp:Image ID="ImgSearch" class="img-responsive zoom-img soo" ImageUrl='<%#Eval("IMAGE_PATH3") %>' runat="server" Width="253px" Height="200px" alt="" /></a>
 						<div class="deal-bottom">
 							<div class="top-deal1">

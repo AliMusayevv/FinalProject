@@ -28,7 +28,7 @@ namespace FinalProject.Front
 
         protected void BtnSearch_Click(object sender, EventArgs e)
         {
-            
+            try { 
 
             if (conn.State != ConnectionState.Open)
             {
@@ -73,9 +73,13 @@ namespace FinalProject.Front
             {
                 LblNoResult.Visible= false; 
             }
-           
-
 
         }
+            catch
+            {
+                Response.Redirect("404.aspx");
+            }
+
+}
     }
 }

@@ -19,11 +19,18 @@ namespace FinalProject.Front
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (!IsPostBack)
+            {
+                LblExists.Text = "";
+            }
             DrpPhone.Items.Insert(0, new ListItem("070", "070"));
             DrpPhone.Items.Insert(0, new ListItem("077", "077"));
             DrpPhone.Items.Insert(0, new ListItem("050", "050"));
             DrpPhone.Items.Insert(0, new ListItem("055", "055"));
             DrpPhone.Items.Insert(0, new ListItem("051", "051"));
+
+           
+          
 
         }
 
@@ -42,6 +49,10 @@ namespace FinalProject.Front
 
         protected void BtnRegSubmit_Click(object sender, EventArgs e)
         {
+            try
+            {
+
+            
             if (TxtUsername.Text == "" || TxtPassword.Text == "")
             {
                 LblExists.Text = "Please fill Username and Password";
@@ -72,10 +83,16 @@ namespace FinalProject.Front
                 {
                     LblExists.Text = "Registration Complete Successfully";
                     LblExists.ForeColor = System.Drawing.Color.Green;
+                        TxtClear();
                 }
 
-                TxtClear();
+                
 
+            }
+            }
+            catch
+            {
+                Response.Redirect("404.aspx");
             }
         }
     }
