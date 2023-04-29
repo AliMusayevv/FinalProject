@@ -35,15 +35,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    </script>
 </head>
 <body>
-				<!--header-->
-	<div class="navigation ">
-			<div class="container-fluid ">
+		<div class="navigation">
+			<div class="container-fluid">
 				<nav class="pull">
 					<ul>
-						<li><a  href="index.aspx" class="wh">Home</a></li>
+						<li><a  href="index.aspx" class=" wh">Home</a></li>
 						<li><a  href="about.aspx" class="wh">About Us</a></li>
-						<li><a  href="blog_single.aspx" class="wh">Blog</a></li>
-						<li><a  href="terms.aspx" class="wh">Terms</a></li>
+						<li><a  href="rent.aspx" class="wh">Rent</a></li>
+						<li><a  href="sale.aspx" class="wh">Sale</a></li>
 						<li><a  href="privacy.aspx" class="wh">Privacy</a></li>
 						<li><a  href="contact.aspx" class="wh">Contact</a></li>
 					</ul>
@@ -61,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-nav">
 			<ul class="right-icons">
 				<li><span ><i class="glyphicon glyphicon-phone"> </i> +994 077 639 96 66</span></li>
-				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
+				
 				<li></li>
 				
 			</ul>
@@ -120,43 +119,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 		</div>	
 </div>
-<!--//-->	
-	<div class="menu-right">
-		 <ul class="menu">
-			<li class="item1"><a href="#"> Menu<i class="glyphicon glyphicon-menu-down"> </i> </a>
-			<ul class="cute">
-				<li class="subitem1"><a href="buy.aspx">Buy </a></li>
-				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
-				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
-				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
-				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
-			</ul>
-		</li>
-		</ul>
-	</div>
-	<div class="clearfix"> </div>
-		<!--initiate accordion-->
-		<script type="text/javascript">
-            $(function () {
-                var menu_ul = $('.menu > li > ul'),
-                    menu_a = $('.menu > li > a');
-                menu_ul.hide();
-                menu_a.click(function (e) {
-                    e.preventDefault();
-                    if (!$(this).hasClass('active')) {
-                        menu_a.removeClass('active');
-                        menu_ul.filter(':visible').slideUp('normal');
-                        $(this).addClass('active').next().stop(true, true).slideDown('normal');
-                    } else {
-                        $(this).removeClass('active');
-                        $(this).next().stop(true, true).slideUp('normal');
-                    }
-                });
-
-            });
-        </script>
-
 <!--404 page start here-->
 <!-- Error content -->
 <div class="error_main w3_content">

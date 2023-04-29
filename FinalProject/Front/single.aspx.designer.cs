@@ -69,15 +69,6 @@ namespace FinalProject.Front
         protected global::System.Web.UI.WebControls.Label LblBath;
 
         /// <summary>
-        /// LblBuildUpArea control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblBuildUpArea;
-
-        /// <summary>
         /// LblPlotArea control.
         /// </summary>
         /// <remarks>
@@ -112,6 +103,15 @@ namespace FinalProject.Front
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblRentPrice;
+
+        /// <summary>
+        /// LblPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblPhone;
 
         /// <summary>
         /// LblDescription control.

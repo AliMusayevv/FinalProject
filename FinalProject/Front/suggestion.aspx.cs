@@ -38,12 +38,18 @@ namespace FinalProject.Front
                 cmd.Parameters.AddWithValue("@phone", TxtPhone.Text);
                 cmd.Parameters.AddWithValue("@subject", TxtSubject.Text);
                 cmd.Parameters.AddWithValue("@suggestion", TxtSuggestion.Text);
-                ;
+               
 
                 SqlDataAdapter DA = new SqlDataAdapter(cmd);
                 DataSet DS = new DataSet();
-                DA.Fill(DS);
+                DA.Fill(DS); 
 
+                    LblLogMessage.Text = "Sending was succesful.Thanks you!";
+
+             
+
+                
+               
                 conn.Close();
                 TxtName.Text = "";
                 TxtEmail.Text = "";
@@ -60,5 +66,7 @@ namespace FinalProject.Front
             }
 
         }
+
+        
     }
 }

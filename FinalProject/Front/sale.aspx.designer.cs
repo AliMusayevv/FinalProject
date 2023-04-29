@@ -11,7 +11,16 @@ namespace FinalProject.Front
 {
 
 
-    public partial class mobile_app
+    public partial class sale
     {
+
+        /// <summary>
+        /// LstSale control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView LstSale;
     }
 }

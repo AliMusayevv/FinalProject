@@ -9,26 +9,22 @@ using System.Web.UI.WebControls;
 
 namespace FinalProject.Front
 {
-    public partial class blog_single : System.Web.UI.Page
+    public partial class rent : System.Web.UI.Page
     {
+
         SqlConnection conn = new SqlConnection(DataSource.DS);
+        string Query = "select*from ViewRentt";
         protected void Page_Load(object sender, EventArgs e)
         {
-            try { 
-            string query = "select*from ViewMostPop";
+
             conn.Open();
             //Most Popular
-            SqlCommand cmd = new SqlCommand(query, conn);
+            SqlCommand cmd = new SqlCommand(Query, conn);
             SqlDataReader DR = cmd.ExecuteReader();
-            LstMostPop.DataSource = DR;
-            LstMostPop.DataBind();
+            LstRent.DataSource = DR;
+            LstRent.DataBind();
             DR.Close();
             conn.Close();
-            }
-            catch
-            {
-                Response.Redirect("404.aspx");
-            }
         }
     }
 }

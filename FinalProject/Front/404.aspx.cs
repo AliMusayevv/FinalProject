@@ -22,7 +22,8 @@ namespace FinalProject.Front
 
         protected void BtnSend_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
                 if (conn.State != ConnectionState.Open)
                 {
                     conn.Open();
@@ -34,7 +35,7 @@ namespace FinalProject.Front
 
 
                 cmd.Parameters.AddWithValue("@error", TxtError.Text);
-               
+
                 ;
 
                 SqlDataAdapter DA = new SqlDataAdapter(cmd);
@@ -42,11 +43,15 @@ namespace FinalProject.Front
                 DA.Fill(DS);
 
                 conn.Close();
-                
+
                 TxtError.Text = "";
 
 
-
+            }
+            catch
+            {
+                Response.Redirect("404.aspx");
+            }
             }
             
         }

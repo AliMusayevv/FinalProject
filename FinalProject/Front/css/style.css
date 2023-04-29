@@ -330,6 +330,10 @@ i.glyphicon.glyphicon-menu-hamburger {
 	padding: 0px;
 	clear: left;
 }
+.aye{
+	width:400px!important;
+
+}
 h2.resp-accordion {
 	cursor: pointer;
 	padding: 0;
@@ -1792,8 +1796,27 @@ option.rm{
 	font-weight: bold;
 }
 .aim{
-	position:relative;
+	position:absolute;
 	right:50px;
+	top:40px!important;
+}
+.lann{
+	position:relative;
+	left:400px;
+	bottom:30px;
+	color:green;
+	font-size:20px;
+}
+.bbb{
+	background-color:#27da93;
+	border:3px solid #27da93;
+	color:white;
+	font-size:18px;
+}
+.all{
+	position:relative;
+	right:40px;
+	
 }
 .middle-side p span.bath1{
 	color:#000;

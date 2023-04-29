@@ -28,14 +28,13 @@ namespace FinalProject.Front
 
         protected void BtnSearch_Click(object sender, EventArgs e)
         {
-            try { 
-
+            
             if (conn.State != ConnectionState.Open)
             {
                 conn.Open();
             }
-
-            SqlCommand cmd = new SqlCommand("CatBuy", conn);
+              
+            SqlCommand cmd = new SqlCommand("CatBuy3", conn);
            
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@city", DrpCity.Text);
@@ -45,17 +44,9 @@ namespace FinalProject.Front
             cmd.Parameters.AddWithValue("@priceTo",Int32.Parse( DrpSaleTo.Text));
             cmd.Parameters.AddWithValue("@rentPriceFrom",Int32.Parse( DrpRentFrom.Text));
             cmd.Parameters.AddWithValue("@rentPriceTo",Int32.Parse( DrpRentTo.Text));
-            SqlCommand cmd2 = new SqlCommand("CatBuy", conn);
-            cmd2.CommandType = CommandType.StoredProcedure;
-            cmd2.Parameters.AddWithValue("@city", DrpCity.Text);
-            cmd2.Parameters.AddWithValue("@category", DrpCategory.Text);
-            cmd2.Parameters.AddWithValue("@rooms", DrpRoom.Text);
-            cmd2.Parameters.AddWithValue("@priceFrom", Int32.Parse(DrpSaleFrom.Text));
-            cmd2.Parameters.AddWithValue("@priceTo", Int32.Parse(DrpSaleTo.Text));
-            cmd2.Parameters.AddWithValue("@rentPriceFrom", Int32.Parse(DrpRentFrom.Text));
-            cmd2.Parameters.AddWithValue("@rentPriceTo", Int32.Parse(DrpRentTo.Text));
+            
 
-            SqlDataReader DR = cmd2.ExecuteReader();
+            SqlDataReader DR = cmd.ExecuteReader();
             LstBuy.DataSource = DR;
             LstBuy.DataBind();
             DR.Close();
@@ -67,7 +58,8 @@ namespace FinalProject.Front
             if (i==0)
             {
                 LblNoResult.Text = "No matching results were found!";
-                LblNoResult.ForeColor= System.Drawing.Color.Red;    
+                LblNoResult.ForeColor= System.Drawing.Color.Red;
+                    LblNoResult.Visible = true;
             }
             else
             {
@@ -75,11 +67,6 @@ namespace FinalProject.Front
             }
 
         }
-            catch
-            {
-                Response.Redirect("404.aspx");
-            }
-
-}
+            
     }
 }

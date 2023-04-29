@@ -1,10 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="privacy.aspx.cs" Inherits="FinalProject.Front.privacy" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sale.aspx.cs" Inherits="FinalProject.Front.sale" %>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Real Home A Real Estate Category Flat Bootstarp Resposive Website Template | Privacy_Policy :: w3layouts</title>
+<title>Real Home</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -18,11 +17,23 @@
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Real Home  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+<meta name="keywords" content="Real Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- slide -->
+<script src="js/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
 </head>
-<body>
+<body >
 <!--header-->
 	<div class="navigation">
 			<div class="container-fluid">
@@ -108,41 +119,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 		</div>	
 </div>
-<!--//header-->
-<!--contact-->
-<div class="privacy">
-	<div class="container">
-		<h3>Privacy Policy</h3>
-		<p>Welcome! Real Home  is an online platform dedicated to project renovation and construction. Real Home brings together professionals who are working in the construction field, material suppliers, and project owners altogether. Through Real Home, people can find services and materials related to project renovation and construction.We collect personal information that you provide us, from third parties, and automatically when you use our Platform. We only receive information about your location only when you request a service.</p>
-		<h4>Collection:</h4>
-		<p class="privacy-para">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum</p>
-		<ul class="privacy-start">
-			<li><a ><i></i>We collect information that you provide us, including your account and profile information, content you submit or post to our Platform, your purchase information, your communications.</a></li>
-			<li><a ><i></i>When you create an account on Real Home, we collect the information you provide us, like your name, email address, interests, gender, age, and profile information. If you are a professional, you may also provide us information related to your business, including business descriptions and areas served.</a></li>
-			<li><a ><i></i>Others may post content on the Real Home that includes information about you (for example, as part of photos, stories, and reviews) </a></li>
-			<li><a ><i></i>Each time you access the  Real Home, information is sent to our server by your Internet browser or app and stored in our log files. We collect information about other account visits in the  Platform, and the date and time of your visit, and if you use our browser extensions.</a></li>
-			<li><a ><i></i>We do not rent or sell your personal contact information (such as your email address associated with your account registration) to third parties to use for any purpose. We share personal information in the following ways:</a></li>
-			<li><a ><i></i>One of the main purposes of having a Real Home account is to share Project renovation and construction with others. Through Real Home, others have the ability to find, contact, view your profile and public activity on Bina App.</a></li>
-		</ul>
-		<h4 class="use-privay">Use:</h4>
-		<ul class="privacy-start">
-			<li><a ><i></i>Platform Visitors and Users.</a></li>
-			<li><a ><i></i>Communications</a></li>
-			<li><a ><i></i>Account Termination and Data Retention</a></li>
-			<li><a ><i></i>Lorem Ipsum is simply dummy text of the printing.</a></li>
-			<li><a ><i></i>Our Platform is intended for general audiences and is not directed to children under 18. If you become aware or believe that a child has provided us with personal information, please contact us as provided in the Contact Us section.</a></li>
-			<li><a ><i></i>We use reasonable and appropriate measures to protect your personal information from loss, misuse, and destruction.</a></li>
-			<li><a ><i></i>We may revise this Privacy Policy from time to time. If we make material changes to our Privacy Policy, we will notify you by posting a notice on our Platform or by other means, to offer you an opportunity to review the changes before they become effective. By continuing to access or use our Platform after those changes become effective, you are subject to the revised Privacy Policy.
-
- </a></li>
-			<li><a ><i></i>Real Home is responsible for the use of your personal information. If you have questions or comments about this Privacy Policy (including about how we or our service providers treat your personal information), you may contact us in the following ways: please email us at info@bina-app.com or call us at +9440776399666</a></li>
-			
-		</ul>
+<div class="content">
+	<div class="content-grid">
+		<div class="container">
+			<h3> Homes For Sale</h3>
+			<asp:ListView runat="server" ID="LstSale">
+				<ItemTemplate>
+					<div class="col-md-4 box_2">
+			     	 <a href="single.aspx?Item=<%#Eval("ID")%>" class="mask">
+  <asp:Image ID="Image3" runat="server" Width="400px" Height="300px" class="img-responsive zoom-img" ImageUrl='<%#Eval("IMAGE_PATH") %>'/> </a><asp:Label ID="LblPrice" runat="server" class="four" Text='<%#Eval("PRICE")+" ₼"%> '></asp:Label>	
+			     	
+			     	   <div class="most-1">
+			     	   	 <h5><a  href="single.aspx?Item=<%#Eval("ID")%>">More</a></h5>
+							<asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label>
+			     	   </div>
+			 </div>
+					
+				</ItemTemplate>
+			</asp:ListView>
+				
+		 	<div class="clearfix"> </div>
+		</div>
 	</div>
-</div>
-<!--//contact-->
-<!--footer-->
-<div class="footer">
+	<div class="footer">
 	<div class="container">
 		<div class="footer-top-at">
 			<div class="col-md-3 amet-sed">

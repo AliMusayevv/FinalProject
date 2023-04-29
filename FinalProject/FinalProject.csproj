@@ -69,9 +69,7 @@
   <ItemGroup>
     <Content Include="Front\404.aspx" />
     <Content Include="Front\about.aspx" />
-    <Content Include="Front\blog_single.aspx" />
     <Content Include="Front\buy.aspx" />
-    <Content Include="Front\buy_single.aspx" />
     <Content Include="Front\contact.aspx" />
     <Content Include="Front\css\bootstrap.css" />
     <Content Include="Front\css\default.css" />
@@ -127,7 +125,28 @@
     <Content Include="Front\images\ci5.jpg" />
     <Content Include="Front\images\ci6.jpg" />
     <Content Include="Front\images\ci7.jpg" />
+    <Content Include="Front\images\cnn.jpg" />
     <Content Include="Front\images\co.png" />
+    <Content Include="Front\images\ddes1.jpg" />
+    <Content Include="Front\images\ddes10.jpg" />
+    <Content Include="Front\images\ddes11.jpg" />
+    <Content Include="Front\images\ddes12.jpg" />
+    <Content Include="Front\images\ddes13.jpg" />
+    <Content Include="Front\images\ddes14.jpg" />
+    <Content Include="Front\images\ddes15.jpg" />
+    <Content Include="Front\images\ddes16.jpg" />
+    <Content Include="Front\images\ddes17.jpg" />
+    <Content Include="Front\images\ddes18.jpg" />
+    <Content Include="Front\images\ddes19.jpg" />
+    <Content Include="Front\images\ddes2.jpg" />
+    <Content Include="Front\images\ddes20.jpg" />
+    <Content Include="Front\images\ddes3.jpg" />
+    <Content Include="Front\images\ddes4.jpg" />
+    <Content Include="Front\images\ddes5.jpg" />
+    <Content Include="Front\images\ddes6.jpg" />
+    <Content Include="Front\images\ddes7.jpg" />
+    <Content Include="Front\images\ddes8.jpg" />
+    <Content Include="Front\images\ddes9.jpg" />
     <Content Include="Front\images\de.jpg" />
     <Content Include="Front\images\de1.jpg" />
     <Content Include="Front\images\de10.jpg" />
@@ -219,6 +238,7 @@
     <Content Include="Front\images\inn7.jpg" />
     <Content Include="Front\images\inn8.jpg" />
     <Content Include="Front\images\inn9.jpg" />
+    <Content Include="Front\images\innn16.jpg" />
     <Content Include="Front\images\iqd.jpg" />
     <Content Include="Front\images\kapital.jpg" />
     <Content Include="Front\images\lg.png" />
@@ -295,9 +315,10 @@
     <Content Include="Front\js\responsiveslides.min.js" />
     <Content Include="Front\js\scripts.js" />
     <Content Include="Front\login.aspx" />
-    <Content Include="Front\mobile_app.aspx" />
     <Content Include="Front\privacy.aspx" />
     <Content Include="Front\register.aspx" />
+    <Content Include="Front\rent.aspx" />
+    <Content Include="Front\sale.aspx" />
     <Content Include="Front\single.aspx" />
     <Content Include="Front\suggestion.aspx" />
     <Content Include="Front\terms.aspx" />
@@ -320,26 +341,12 @@
     <Compile Include="Front\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Front\blog_single.aspx.cs">
-      <DependentUpon>blog_single.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\blog_single.aspx.designer.cs">
-      <DependentUpon>blog_single.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Front\buy.aspx.cs">
       <DependentUpon>buy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Front\buy.aspx.designer.cs">
       <DependentUpon>buy.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Front\buy_single.aspx.cs">
-      <DependentUpon>buy_single.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\buy_single.aspx.designer.cs">
-      <DependentUpon>buy_single.aspx</DependentUpon>
     </Compile>
     <Compile Include="Front\contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
@@ -376,13 +383,6 @@
     <Compile Include="Front\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Front\mobile_app.aspx.cs">
-      <DependentUpon>mobile_app.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Front\mobile_app.aspx.designer.cs">
-      <DependentUpon>mobile_app.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Front\privacy.aspx.cs">
       <DependentUpon>privacy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -396,6 +396,20 @@
     </Compile>
     <Compile Include="Front\register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front\rent.aspx.cs">
+      <DependentUpon>rent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front\rent.aspx.designer.cs">
+      <DependentUpon>rent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front\sale.aspx.cs">
+      <DependentUpon>sale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front\sale.aspx.designer.cs">
+      <DependentUpon>sale.aspx</DependentUpon>
     </Compile>
     <Compile Include="Front\single.aspx.cs">
       <DependentUpon>single.aspx</DependentUpon>

@@ -11,6 +11,7 @@
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <!--menu-->
+
 <script src="js/scripts.js"></script>
 <link href="css/styles.css" rel="stylesheet">
 <!--//menu-->
@@ -43,8 +44,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a  href="index.aspx">Home</a></li>
 						<li><a  href="about.aspx">About Us</a></li>
-						<li><a  href="blog_single.aspx">Blog</a></li>
-						<li><a  href="terms.aspx">Terms</a></li>
+						<li><a  href="rent.aspx">Rent</a></li>
+						<li><a  href="sale.aspx">Sale</a></li>
 						<li><a  href="privacy.aspx">Privacy</a></li>
 						<li><a  href="contact.aspx">Contact</a></li>
 					</ul>
@@ -62,7 +63,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-nav">
 			<ul class="right-icons">
 				<li><span ><i class="glyphicon glyphicon-phone"> </i> +994 077 639 96 66</span></li>
-				<li><a  href="login.aspx"><i class="glyphicon glyphicon-user"> </i>Login</a></li>
+				<li><form runat="server">
+					<asp:Button ID="BtnCheck" runat="server" class="bbb" Text="Login" OnClick="BtnCheck_Click" /></li>
+				</form>
 				<li></li>
 				
 			</ul>
@@ -122,41 +125,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>	
 </div>
 <!--//-->	
-	<div class="menu-right">
-		 <ul class="menu">
-			<li class="item1"><a href="#"> Menu<i class="glyphicon glyphicon-menu-down"> </i> </a>
-			<ul class="cute">
-				<li class="subitem1"><a href="buy.aspx">Buy </a></li>
-				<li class="subitem2"><a href="buy.aspx">Rent </a></li>
-				<li class="subitem3"><a href="buy.aspx">Hostels </a></li>
-				<li class="subitem1"><a href="buy.aspx">Resale </a></li>
-				<li class="subitem3"><a href="buy.aspx">Apartment </a></li>
-				<li class="subitem3"><a href="dealers.aspx">Dealers</a></li>
-			</ul>
-		</li>
-		</ul>
-	</div>
+	
 	<div class="clearfix"> </div>
-		<!--initiate accordion-->
-		<script type="text/javascript">
-            $(function () {
-                var menu_ul = $('.menu > li > ul'),
-                    menu_a = $('.menu > li > a');
-                menu_ul.hide();
-                menu_a.click(function (e) {
-                    e.preventDefault();
-                    if (!$(this).hasClass('active')) {
-                        menu_a.removeClass('active');
-                        menu_ul.filter(':visible').slideUp('normal');
-                        $(this).addClass('active').next().stop(true, true).slideDown('normal');
-                    } else {
-                        $(this).removeClass('active');
-                        $(this).next().stop(true, true).slideUp('normal');
-                    }
-                });
-
-            });
-        </script>
+		
 	<div class=" header-right">
 		<div class=" banner">
 			 <div class="slider">
@@ -193,72 +164,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	 
 	<!--header-bottom-->
-	<div class="banner-bottom-top">
-			<div class="container">
-			<div class="bottom-header">
-				<div class="header-bottom">
-					<div class=" bottom-head">
-						<a href="buy.aspx">
-							<div class="buy-media">
-								<i class="buy"> </i>
-								<h6>Buy</h6>
-							</div>
-						</a>
-					</div>
-					<div class=" bottom-head">
-						<a href="buy.aspx">
-							<div class="buy-media">
-							<i class="rent"> </i>
-							<h6>Rent</h6>
-							</div>
-						</a>
-					</div>
-					<div class=" bottom-head">
-						<a href="buy.aspx">
-							<div class="buy-media">
-							<i class="pg"> </i>
-							<h6>Hostels</h6>
-							</div>
-						</a>
-					</div>
-					<div class=" bottom-head">
-						<a href="buy.aspx">
-							<div class="buy-media">
-							<i class="sell"> </i>
-							<h6>Resale</h6>
-							</div>
-						</a>
-					</div>
-					
-					<div class=" bottom-head">
-						<a href="buy.aspx">
-							<div class="buy-media">
-							<i class="apart"> </i>
-							<h6>Projects</h6>
-							</div>
-						</a>
-					</div>
-					<div class=" bottom-head">
-						<a href="dealers.aspx">
-							<div class="buy-media">
-							<i class="loan"> </i>
-							<h6>Mobile App</h6>
-							</div>
-						</a>
-					</div>
-					<div class=" bottom-head">
-						<a href="dealers.aspx">
-							<div class="buy-media">
-							<i class="deal"> </i>
-							<h6>Dealers</h6>
-							</div>
-						</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-	</div>
-	</div>
+	
 			<!--//-->
 				
 	<!--//header-bottom-->
@@ -277,7 +183,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <asp:Image ID="Image3" runat="server" class="img-responsive zoom-img" ImageUrl='<%#Eval("IMAGE_PATH") %>'/> </a><asp:Label ID="LblPrice" runat="server" class="four" Text='<%#Eval("PRICE")+" ₼"%> '></asp:Label>	
 			     	
 			     	   <div class="most-1">
-			     	   	 <h5><a  href="single.aspx?Item=<%#Eval("ID")%>">View</a></h5>
+			     	   	 <h5><a  href="single.aspx?Item=<%#Eval("ID")%>">More</a></h5>
 							<asp:Label ID="LblLocation" runat="server" Text='<%#Eval("LOCATION")%> '></asp:Label>
 			     	   </div>
 			 </div>
@@ -288,99 +194,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!--service-->
-	<div class="services">
-		<div class="container">
-			<div class="service-top">
-				<h3>Services</h3>
-		
-			</div>
-			<div class="services-grid">
-		   		<div class="col-md-6 service-top1">
-		   			<div class=" ser-grid">	
-		   				<a  class="hi-icon hi-icon-archive glyphicon glyphicon-user"> </a>
-		   			</div>
-		   			<div  class="ser-top">
-		   				<h4>LIST YOUR PROPERTY</h4>
-		   				<p>If you are looking to sell your property, look no further. We will assist you in the process of selling your property. Fill in this form and we will contact you. </p>
-		   		    </div>
-					<div class="clearfix"> </div>
-		   	   </div>
-				<div class="col-md-6 service-top1">
-		   			<div class=" ser-grid">	
-		   				<a  class="hi-icon hi-icon-archive glyphicon glyphicon-leaf"> </a>
-		   			</div>
-		   			<div  class="ser-top">
-		   				<h4>PROPERTY FINDER</h4>
-		   				<p>f you are looking for the perfect home that will suit your family and your budget, then we are here to help. Fill in this form and we will contact you. </p>
-		   		    </div>
-					<div class="clearfix"> </div>
-		   		</div>
-		   	<div class="clearfix"> </div>
-		 </div>
-		 <div class="services-grid">
-			   	<div class="col-md-6 service-top1">
-			   		<div class=" ser-grid">	
-			   			<a class="hi-icon hi-icon-archive glyphicon glyphicon-cog"> </a>
-			   		</div>
-			   		<div  class="ser-top">
-			   			<h4>PROPERTY ALERTS</h4>
-			   				<p>Want to be kept in the loop when new properties are listed in your area that matches your requirements? Register for our property alerts</p>
-			   		</div>
-					<div class="clearfix"> </div>
-			   	</div>
-				<div class="col-md-6 service-top1">
-			   		<div class=" ser-grid">	
-			   			<a  class="hi-icon hi-icon-archive glyphicon glyphicon-file"> </a>
-			   		</div>
-			   		<div  class="ser-top">
-			   			<h4>VIP announcements</h4>
-			   			<p>
-
-.Announcements in the VIP list are always in front of the eyes. They are viewed more than regular ads (about 10-50 times more) and have a high chance of being sold if a real price is set. Thus, the VIP ad stays on the front page for 1 month (30 days). Thousands of visitors who enter our site every day and are looking for a house</p>
-			   		</div>
-					<div class="clearfix"> </div>
-			   	</div>
-		   	  <div class="clearfix"> </div>
-		 	</div>
-		</div>
-	</div>
+	
 <!--//services-->
 <!--features-->
-		<div class="content-middle">
-			<div class="container">
-				<div class="mid-content">
-					<h3>the best features</h3>
-					<p>Contrary to popular belief
-							, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-					<a class="hvr-sweep-to-right more-in" href="blog_single.aspx">Read More</a>
-				</div>
-			</div>
-		</div>
+		
 <!--//features-->
 <!--phone-->
-	<div class="phone">
-		<div class="container">
-			<div class="col-md-6">
-				<img src="/Front/images/ph1.png" class="img-responsive" alt=""/>
-			</div>
-			<div class="col-md-6 phone-text">
-				<h4>Search Homes Everywhere</h4>
-					<div class="text-1">
-						<h5>Custom Location Tracker</h5>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majorit</p>
-					</div>
-					<div class="text-1">
-						<h5>Map Search</h5>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majorit</p>
-					</div>
-					<div class="text-1">
-						<h5>Quick Details</h5>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majorit</p>
-					</div>
-					<a href="mobile_app.aspx" class="hvr-sweep-to-right more">Download the App</a>
-			</div>
-		</div>
-	</div>
+	
 <!--//phone-->
 <!--project--->
 	<div class="project">
@@ -425,74 +245,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 					
-		<div class="content-bottom">
-			<div class="container">
-				<h3>Testimonials</h3>
-					<div class="col-md-6 name-in">
-						<div class=" bottom-in">
-							<p class="para-in">Duis aute irure dolor in reprehenderit in voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						    <i class="dolor"> </i>
-							<div class="men-grid">
-								<a href="#" class="men-top"><img class="img-responsive men-top" src="/Front/images/te.jpg" alt=""></a>
-								<div class="men">
-								<span>Roger V. Coates</span>
-								<p>Ut enim ad minim</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-						<div class=" bottom-in">
-							<p class="para-in">Duis aute irure dolor in reprehenderit in voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<i class="dolor"> </i>
-							<div class="men-grid">
-								<a href="#" class="men-top"><img class="img-responsive " src="/Front/images/te2.jpg" alt=""></a>
-								<div class="men">
-									<span>Ann K. Perez</span>
-									<p>Ut enim ad minim</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6  name-on">
-						<div class="bottom-in ">
-							<p class="para-in">Duis aute irure dolor in reprehenderit in voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<i class="dolor"> </i>
-							<div class="men-grid">
-								<a href="#" class="men-top"><img class="img-responsive " src="/Front/images/te1.jpg" alt=""></a>
-								<div class="men">
-									<span>Nancy M. Picker</span>
-									<p>Ut enim ad minim</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-			</div>
-		</div>		
+			
 <!--//test-->	
 <!--partners-->
 	<div class="content-bottom1">
 		<h3>Our Partners</h3>
 	 		<div class="container">
 				<ul>
-					<li><a href="https://www.economy.gov.az/az"><img class="img-responsive sizs" src="/Front/images/iqd.jpg" alt=""></a></li>
-					<li><a href="https://www.msn.com/en-xl"><img class="img-responsive sizs" src="/Front/images/lg1.png" alt=""></a></li>
-					<li><a href="https://www.news18.com/"><img class="img-responsive sizs" src="/Front/images/lg2.png" alt=""></a></li>
-					<li><a href="https://www.yahoo.com/"><img class="img-responsive sizs" src="/Front/images/lg3.png" alt=""></a></li>
-					<li><a href="https://www.kapitalbank.az/"><img class="img-responsive sizs" src="/Front/images/kapital.jpg" alt=""></a></li>
+					<li><a href="https://www.economy.gov.az/az" target="_blank"><img class="img-responsive sizs" src="/Front/images/iqd.jpg" alt=""></a></li>
+					<li><a href="https://www.msn.com/en-xl" target="_blank"><img class="img-responsive sizs" src="/Front/images/lg1.png" alt=""></a></li>
+					<li><a href="https://www.news18.com/" target="_blank"><img class="img-responsive sizs" src="/Front/images/lg2.png" alt=""></a></li>
+					<li><a href="https://www.yahoo.com/" target="_blank"><img class="img-responsive sizs" src="/Front/images/lg3.png" alt=""></a></li>
+					<li><a href="https://www.kapitalbank.az/" target="_blank"><img class="img-responsive sizs" src="/Front/images/kapital.jpg" alt=""></a></li>
 				<div class="clearfix"> </div>
 				</ul>
 				<ul>
-					<li><a href="https://azeriqaz.az/az"><img class="img-responsive sizs" src="/Front/images/azerqaz.jpg" alt=""></a></li>
-					<li><a href="http://www.azcredit.az/"><img class="img-responsive sizs" src="/Front/images/azkredit.jpg" alt=""></a></li>
-					<li><a href="https://edition.cnn.com/"><img class="img-responsive sizs" src="/Front/images/lg7.png" alt=""></a></li>
-					<li><a href="https://www.sify.com/"><img class="img-responsive sizs" src="/Front/images/lg8.png" alt=""></a></li>
-					<li><a href="https://www.nar.az/"><img class="img-responsive sizs" src="/Front/images/nar2.jpg" alt=""></a></li>	
+					<li><a href="https://azeriqaz.az/az" target="_blank"><img class="img-responsive sizs" src="/Front/images/azerqaz.jpg" alt=""></a></li>
+					<li><a href="http://www.azcredit.az/" target="_blank"><img class="img-responsive sizs" src="/Front/images/azkredit.jpg" alt=""></a></li>
+					<li><a href="https://edition.cnn.com/" target="_blank"><img class="img-responsive sizs" src="/Front/images/cnn.jpg" alt=""></a></li>
+					<li><a href="https://www.sify.com/" target="_blank"><img class="img-responsive sizs" src="/Front/images/lg8.png" alt=""></a></li>
+					<li><a href="https://www.nar.az/" target="_blank"><img class="img-responsive sizs" src="/Front/images/nar2.jpg" alt=""></a></li>	
 				<div class="clearfix"> </div>
 				</ul>
 			</div>
@@ -507,8 +279,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h4>Our Company</h4>
 				<ul class="nav-bottom">
 					<li><a href="about.aspx">About Us</a></li>
-					<li><a href="blog.aspx">For Sale By Owner Blog</a></li>
-					<li><a href="mobile_app.aspx">Mobile</a></li>
 					<li><a href="terms.aspx">Terms & Conditions</a></li>
 					<li><a href="privacy.aspx">Privacy Policy</a></li>	
 				
@@ -519,18 +289,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h4>Work With Us</h4>
 					<ul class="nav-bottom">
 						
-						<li><a href="about.aspx">Business Development</a></li>
-						<li><a href="blog_single.aspx">Affiliate Programs</a></li>
-						<li><a href="contact.aspx">Sitemap</a></li>
+						<li><a href="contact.aspx">Contact</a></li>
 					
 						
 					</ul>	
 			</div>
 			<div class="col-md-3 amet-sed">
 				<h4>Customer Support</h4>
-				<p>Mon-Fri, 7AM-7PM </p>
-				<p>Sat-Sun, 8AM-5PM </p>
-				<p>177-869-6559</p>
+				
 					<ul class="nav-bottom">
 						
 						<li><a href="faqs.aspx">Frequently Asked Questions</a></li>
@@ -540,8 +306,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 amet-sed ">
 				<h4>Property Services</h4>
 				   <ul class="nav-bottom">
-						<li><a href="blog_single.aspx">Residential Property</a></li>
-						<li><a href="blog_single.aspx">Commercial Property</a></li>
 						<li><a href="login.aspx">Login</a></li>
 						<li><a href="register.aspx">Register</a></li>
 						

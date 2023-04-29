@@ -41,7 +41,7 @@ namespace FinalProject.Front
                     LblCategory.Text = DR["CATEGORY"].ToString();
                     LblDescription.Text = DR["DESCRIPTION"].ToString();
                     LblPlotArea.Text = DR["PLOT_AREA"].ToString() + " m²";
-                    LblBuildUpArea.Text = DR["BUILD_UP_AREA"].ToString() + " m²";
+                    LblPhone.Text = DR["PHONE"].ToString() ;
                     LblBath.Text = DR["BATHS"].ToString();
                     LblAgeOfProperty.Text = DR["AGE_OF_PROPERTY"].ToString();
                     LblRentPrice.Text = DR["RENT_PRICE"].ToString() + " ₼";

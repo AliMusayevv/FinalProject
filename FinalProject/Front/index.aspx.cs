@@ -15,7 +15,7 @@ namespace FinalProject.Front
         SqlConnection conn = new SqlConnection(DataSource.DS);
         string Query= "select*from ViewMostPop";
         string Query2 = "select*from ViewProGallery";
-
+        public static bool check = false;
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -38,12 +38,31 @@ namespace FinalProject.Front
 
 
                 conn.Close();
+                if(check==false) {
+                    BtnCheck.Text = "Login";
+                }
+                else
+                {
+                    BtnCheck.Text = "Log Out";
+                }
             }
             catch
             {
                 Response.Redirect("404.aspx");
             }
             }
-           
+
+        protected void BtnCheck_Click(object sender, EventArgs e)
+        {
+            if(BtnCheck.Text=="Login")
+            {
+                Response.Redirect("login.aspx");
+            }
+            if (BtnCheck.Text == "Log Out")
+            {
+                check = false;
+                BtnCheck.Text = "Login";
+            }
+        }
     }
 }

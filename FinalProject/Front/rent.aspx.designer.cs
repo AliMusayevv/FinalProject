@@ -11,16 +11,16 @@ namespace FinalProject.Front
 {
 
 
-    public partial class blog_single
+    public partial class rent
     {
 
         /// <summary>
-        /// LstMostPop control.
+        /// LstRent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView LstMostPop;
+        protected global::System.Web.UI.WebControls.ListView LstRent;
     }
 }
